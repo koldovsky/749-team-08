@@ -9,8 +9,16 @@
 }
 
 :root {
-    --text-color: black;
-    --accent-color: #a6c7cf;
+    --text-color: #1f3138;
+    --brand-color: #efc94c;
+    --dark-accent-color: #21806a;
+    --dark-shade-color: #1f3138;
+    --light-shade-color: #fff;
+    --light-accent-color: #cb4e3a;
+    --link-color: #1f3138;
+    --link-color-light: #fff;
+    --link-hover-color: #21806a;
+    --link-hover-color-light: #cb4e3a;
     --heading-font: 'Bebas Neue', cursive;
     font-size: 17px;
     scroll-behavior: smooth;
