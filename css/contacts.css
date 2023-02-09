@@ -1,5 +1,9 @@
 .all_contacts 
 {
-display: inline-block;
+display: block;
 background-color: #cb4e3a; 
+}
+.contacts 
+{
+ display: inline;
 }
