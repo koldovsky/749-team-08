@@ -1,0 +1,91 @@
+.carusel {
+    place-items: center;
+    background-color: #1f3138;
+
+}
+
+.carusel__header {
+    font-family: 'Bebas Neue';
+    color: #ffffff;
+    place-items: center;
+    font-size: 56px;
+}
+
+.slide {
+    height: 100%;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.slide img {
+    display: block;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+}
+
+.carusel__points {
+    color: #CB4E3A;
+    font-size: 76px;
+}
+.nav-slide{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 250px;
+    width: 100%;
+}
+.btn-next{
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg) translateX(100%);
+  }
+  .btn-perv{
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    transform: translateX(100%);
+  }
+
+@media (min-width:320px) {
+    .carusel__header {
+        display: grid;
+        justify-content: center;
+    }
+
+    .carusel__blocks {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 30px;
+        padding: 0px 40px;
+    }
+}
+
+@media (min-width:768px) {
+    .carusel__blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+        justify-items: center;
+        align-items: center;
+        padding: 0px 32px;
+    }
+
+}
+
+@media(min-width:992px) {
+    .carusel__blocks {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 30px;
+        justify-items: center;
+        align-items: center;
+        padding: 0px 24px;
+    }
+}
