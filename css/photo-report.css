@@ -9,3 +9,8 @@
     justify-content: space-between;
     align-items: flex-start;
 }
+.photo-report{
+    min-height: 100vh;
+    background-image: linear-gradient(#21806aed, #21806aed),
+    url("../img/photo-report-bg.webp");
+}
