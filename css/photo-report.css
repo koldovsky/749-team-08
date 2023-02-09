@@ -1,5 +1,5 @@
 .photo-report__item{
-    max-width: 380px;
+    max-width: 31.75%;
 }
 
 .photo-report__gallery{
@@ -7,10 +7,15 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
+
 }
 .photo-report{
     min-height: 100vh;
-    background-image: linear-gradient(#21806aed, #21806aed),
+    background-image: linear-gradient(rgba(0, 123, 151, 0.92), rgba(0, 123, 151, 0.92)),
     url("../img/photo-report-bg.webp");
+    background-position: 0 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
