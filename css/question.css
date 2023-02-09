@@ -1,0 +1,8 @@
+.question__pic-block {
+	position: relative;
+}
+
+.question__pic {
+	background-size: 100%;
+	position: relative;
+}
