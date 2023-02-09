@@ -2,3 +2,9 @@
 text-align: left;
 font-family:'Bebas Neue',cursive;
 }
+.divided_points {
+    color: rgb(203,78,58);
+    text-align:left;
+    font: size 73px;
+    font-family: 'Bebas Neue', cursive;
+}
