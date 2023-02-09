@@ -1,0 +1,10 @@
+.issues {
+    padding-bottom: 80px;
+    padding-top: 60px;
+    background-color: #c1523e;
+    color: #fffff3;
+}
+
+.issues__item span {
+    color: var(--brand-color);
+}
