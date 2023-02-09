@@ -3,6 +3,5 @@
 }
 
 .question__pic {
-	background-size: 100%;
-	position: relative;
+	width: 100%;
 }
