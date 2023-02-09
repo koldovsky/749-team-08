@@ -2,5 +2,13 @@
 @import url(issues.css);
 @import url(schedule.css);
 @import url(header.css);
+@import url(photo-report.css);
 @import url(question.css);
 @import url(footer.css);
+<<<<<<< HEAD
+
+
+=======
+@import url(contacts.css);
+@import url(speakers.css);
+>>>>>>> 360c768f086a8575e150e332e0d893dbebce3724
