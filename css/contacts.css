@@ -1,2 +1,5 @@
 .all_contacts 
-{ background-color: #cb4e3a; }
+{
+display: inline-block;
+background-color: #cb4e3a; 
+}
