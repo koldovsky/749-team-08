@@ -1,5 +1,10 @@
 .all_contacts 
 {
-display: inline-block;
 background-color: #cb4e3a; 
+}
+.contacts 
+{
+ display: inline;
+ display: flex;
+ flex-direction: row;
 }
