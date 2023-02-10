@@ -26,11 +26,17 @@
 
  .schedule__speaker {
    background-color: var(--light-shade-color);
+   padding-left: 15px;
+   padding-right: 15px;
+   color: var(--text-color);
  }
  .schedule__speaker-photo {
    height: 70px;
    width: 70px;
    border-radius: 50%;
    object-fit: cover;
+ }
+ .schedule__speaker-time {
+  color: var(--light-accent-color);
  }
  
