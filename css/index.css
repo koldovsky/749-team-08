@@ -1,9 +1,6 @@
 @import url(common.css);
 @import url(issues.css);
 @import url(header.css);
-<<<<<<< HEAD
-@import url(photo-report.css);
-=======
 @import url(photo-report.css);
 @import url(question.css);
 @import url(footer.css);
@@ -12,4 +9,3 @@
 @import url(content.css);
 @import url(carusel.css);
 @import url(schedule.css);
->>>>>>> 49e0975202841c96761c4d626ed1347824f54536
