@@ -1,0 +1,69 @@
+.issues {
+    text-align: center;
+    padding-bottom: 80px;
+    padding-top: 60px;
+    background-image: linear-gradient(rgba(203, 78, 58, 0.90), rgba(203, 78, 58, 0.90)), url(../img/issues-bg.webp);
+    color: #fffff3;
+    font-family: 'Lato', sans-serif;
+    background-size: cover;
+}
+
+.issues__title {
+    color: #fffff3;
+    letter-spacing: -1.46px;
+    line-height: 67.2px;
+    font-weight: 400;
+}
+
+.issues__item span {
+    color: var(--brand-color);
+    font-size: 65px;
+    font-weight: 400;
+    line-height: 78px;
+    letter-spacing: -1.3px;
+    font-family: 'Bebas Neue', cursive;
+    ;
+}
+
+.divider__points {
+    color: rgb(249, 201, 76);
+    text-align: center;
+    font-size: 73px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.divider {
+    position: relative;
+    font-weight: 400;
+}
+
+.item__info {
+    font-size: 20px;
+}
+
+.item__info-time {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    .issues__blocks {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 992px) {
+    .issues__blocks {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.divider {
+    padding: 15px;
+    display: flex;
+    color: rgb(249, 201, 76);
+    font-size: 17px;
+    font-family: 'Bebas Neue', cursive;
+    justify-content: center;
+}

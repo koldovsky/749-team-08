@@ -3,6 +3,19 @@
 }
 
 .question__pic {
-	background-size: 100%;
-	position: relative;
+	width: 100%;
+}
+
+.question__form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.question__form-title {
+	font-size: 56px;
+}
+
+.question__form-text {
+	font-size: 17px;
 }

@@ -26,6 +26,10 @@
     color: var(--text-color);
 }
 
+a{
+    text-decoration: none;
+}
+
 .container {
     max-width: 1200px;
     margin: auto;
@@ -36,3 +40,10 @@ img {
     width: 100%;
 }
 
+h2{
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 56px;
+    text-align: center;
+    color: var(--text-color);
+}
