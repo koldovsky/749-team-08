@@ -40,7 +40,7 @@
 }
 
 .content__box-title {
-    padding: auto;
+    padding: none;
     font-family: 'Bebas Neue', cursive;
     font-size: 24px;
     font-style: normal;
