@@ -1,16 +1,25 @@
 .schedule {
-    min-height: 100vh;
-    padding: 60px 0px 90px 0px;
-    background-image: linear-gradient(rgba(33, 128, 106, 0.92), rgba(33, 128, 106, 0.92)), url(../img/photo-report-bg.webp);
-    background-position: 0 15%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+   min-height: 100vh;
+   padding: 60px 0px 90px 0px;
+   background-image: linear-gradient(rgba(33, 128, 106, 0.92), rgba(33, 128, 106, 0.92)), url(../img/photo-report-bg.webp);
+   background-position: 0 15%;
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding-top: 60px;
+   padding-bottom: 90px;
+   color: var(--light-shade-color);
  }
  .schedule__title {
-    text-align: center;
+   text-align: center;
  }
  .schedule__title-text {
-    text-align: center;
+   text-align: center;
+ }
+ .schedule__dots {
+   color: var(--brand-color);
+   text-align: center;
+   font-size: 73px;
+   font-weight: 400;
  }
  
