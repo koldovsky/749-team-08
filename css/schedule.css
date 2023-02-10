@@ -1,0 +1,9 @@
+.schedule {
+    min-height: 100vh;
+    padding: 60px 0px 90px 0px;
+    background-image: linear-gradient(#21806a, #21806a), url(../img/photo-report-bg.webp);
+    background-position: 0 15%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+ }
