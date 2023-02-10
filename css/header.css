@@ -1,39 +1,135 @@
-
 .header__nav-logo-img {
     width: 128px;
+    margin: 3px;
 
 }
+
 @media (max-width: 767px) {
-.header {
-    background-image: url(/img/heder_image_1200px.png);
-   background-position: center;
-   background-repeat: no-repeat 50% 51,56%;
-   background-size: cover;  
-}
-}
-@media (min-width: 768px) {
     .header {
-        background-image: url(/img/header_image_optimized_1920.png);
-       background-position: center;
-       background-repeat: no-repeat 50% 51,56%;
-       background-size: cover;  
-       height: 100vh;
+        background-image: url(../img/heder_image_1200px.png);
+        background-position: center;
+        background-repeat: no-repeat 50% 51%;
+        background-size: cover;
+    }
+
+    .header__title {
+        font-size: 64px;
+    }
+
+    .header__subtitle {
+        font-size: 34px;
     }
 }
+
+@media (min-width: 768px) {
+    .header {
+        background-image: url(../img/header_image_optimized_1920.png);
+        background-position: center;
+        background-repeat: no-repeat 50% 51%;
+        background-size: cover;
+        height: 100vh;
+    }
+
+    .header__title {
+        font-size: 97px;
+    }
+
+    .header__subtitle {
+        font-size: 37px;
+    }
+}
+
+@media (min-width: 991px) {
+    .header__title {
+        font-size: 130px;
+    }
+
+    .header__subtitle {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header__nav {
+        display: none;
+    }
+}
+
 .header__title {
     font-family: "Bebas Neue", cursive;
     color: var(--light-shade-color);
-    font-size: 63px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
+
 }
-svg {
+
+.header__subtitle {
+    font-family: "Bebas Neue", cursive;
+    color: var(--light-shade-color);
+    max-width: 300px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.title__time {
+    color: var(--brand-color);
+}
+
+.header__title-point {
+    color: var(--light-accent-color);
+}
+.header__svg {
     width: 26px;
     height: 26px;
 }
-@media (max-width: 992px) {
-    .menu {
-        display:none ;
-    }
-    .icons {
-         display:none ;
-    }
+
+.header__button {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(69, 69, 69);
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    border: 1px solid red;
+    box-sizing: border-box;
+    padding: 18px 30px 18px 30px;
+    margin: 10px;
+    word-wrap: none;
+}
+
+.header__box {
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    padding-top: 130px;
+    padding-bottom: 130px;
+    justify-content: space-between;
+
+}
+
+.header__info-action {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header__info-action {
+    display: flex;
+}
+
+.button__shedule {
+    background-color: var(--brand-color);
+}
+
+.button__contact {
+    background-color: var(--light-shade-color);
+}
+
+.menu__item,
+.header__nav-action-link {
+
+    font-size: 17px;
+    color: var(--light-shade-color);
+    text-decoration: none;
+    font-weight: 700;
 }
