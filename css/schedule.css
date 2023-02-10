@@ -1,47 +1,55 @@
 .schedule {
-   min-height: 100vh;
-   background-image: linear-gradient(rgba(33, 128, 106, 0.92), rgba(33, 128, 106, 0.92)), url(../img/photo-report-bg.webp);
-   background-position: 0 15%;
-   background-size: cover;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   padding-top: 60px;
-   padding-bottom: 90px;
-   color: var(--light-shade-color);
- }
- .schedule__title {
-   text-align: center;
-   color: var(--light-shade-color) !important;
- }
- .schedule__title-text {
-   text-align: center;
- }
- .schedule__dots {
-   color: var(--brand-color);
-   text-align: center;
-   font-size: 73px;
-   font-weight: 400;
-   font-family: "Bebas Neue", cursive;
- }
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(33, 128, 106, 0.92), rgba(33, 128, 106, 0.92)), url(../img/photo-report-bg.webp);
+  background-position: 0 15%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding-top: 60px;
+  padding-bottom: 90px;
+  color: var(--light-shade-color);
+}
 
- .schedule__speaker {
+.schedule__title {
+  text-align: center;
+  color: var(--light-shade-color) !important;
+}
+
+.schedule__title-text {
+  text-align: center;
+}
+
+.schedule__dots {
+  color: var(--brand-color);
+  text-align: center;
+  font-size: 73px;
+  font-weight: 400;
+  font-family: "Bebas Neue", cursive;
+}
+
+.schedule__speaker {
   background-color: var(--light-shade-color);
   padding-left: 44px;
   padding-right: 44px;
   padding-top: 27px;
   padding-bottom: 27px;
-  color: /*var(--text-color)*/#1f3138;
- }
- .schedule__speaker-photo {
-   height: 70px;
-   width: 70px;
-   border-radius: 50%;
-   object-fit: cover;
- }
- .schedule__speaker-time {
+  color:
+    /*var(--text-color)*/
+    #1f3138;
+}
+
+.schedule__speaker-photo {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.schedule__speaker-time {
   color: var(--light-accent-color);
   font-family: var(--heading-font);
- }
- .schedule__speaker-topic {
+}
+
+.schedule__speaker-topic {
   font-family: var(--heading-font);
- }
+}
