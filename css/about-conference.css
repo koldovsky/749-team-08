@@ -1,0 +1,25 @@
+.about__conference {
+text-align: left;
+font-family:'Bebas Neue',cursive;
+}
+.divided__doots {
+    color: rgb(203,78,58);
+    text-align:left;
+    font-size:73px;
+    font-family: 'Bebas Neue', cursive;
+}
+.conference__title {
+font-size: 56px;
+font-weight: 400;
+height: auto;
+color:rgb(31,49,56);
+display: inline;
+text-align: left;
+}
+.photo__conference {
+    backgroung-color:rgba(31,49,56,0.62);
+    font-size: 17px;
+    font-weight: 400;
+    height: 234px;
+    position: absolute;
+}
