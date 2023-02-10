@@ -25,10 +25,10 @@
  }
 
  .schedule__speaker {
-   background-color: var(--light-shade-color);
-   padding-left: 15px;
-   padding-right: 15px;
-   color: var(--text-color);
+  background-color: var(--light-shade-color);
+  padding-left: 15px;
+  padding-right: 15px;
+  color: /*var(--text-color)*/#1f3138;
  }
  .schedule__speaker-photo {
    height: 70px;
