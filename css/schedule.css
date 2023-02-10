@@ -7,3 +7,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
  }
+ .schedule__title {
+    text-align: center;
+ }
+ .schedule__title-text {
+    text-align: center;
+ }
+ 
