@@ -26,8 +26,10 @@
 
  .schedule__speaker {
   background-color: var(--light-shade-color);
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 44px;
+  padding-right: 44px;
+  padding-top: 27px;
+  padding-bottom: 27px;
   color: /*var(--text-color)*/#1f3138;
  }
  .schedule__speaker-photo {
@@ -38,5 +40,8 @@
  }
  .schedule__speaker-time {
   color: var(--light-accent-color);
+  font-family: var(--heading-font);
  }
- 
+ .schedule__speaker-topic {
+  font-family: var(--heading-font);
+ }
