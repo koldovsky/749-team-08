@@ -95,7 +95,6 @@
     box-sizing: border-box;
     padding: 18px 30px 18px 30px;
     margin: 10px;
-    word-wrap: none;
 }
 .header__button:hover {
     background-color: var(--link-hover-color-light);
