@@ -7,12 +7,14 @@
     font-family: 'Lato', sans-serif;
     background-size: cover;
 }
+
 .issues__title {
     color: #fffff3;
     letter-spacing: -1.46px;
     line-height: 67.2px;
     font-weight: 400;
 }
+
 .issues__item span {
     color: var(--brand-color);
     font-size: 65px;
@@ -22,34 +24,41 @@
     font-family: 'Bebas Neue', cursive;
     ;
 }
+
 .divider__points {
     color: rgb(249, 201, 76);
     text-align: center;
     font-size: 73px;
     font-family: 'Bebas Neue', cursive;
 }
+
 .divider {
     position: relative;
     font-weight: 400;
 }
+
 .item__info {
     font-size: 20px;
 }
+
 .item__info-time {
     font-size: 14px;
 }
+
 @media (min-width: 768px) {
     .issues__blocks {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
 }
+
 @media (min-width: 992px) {
     .issues__blocks {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
 }
+
 .divider {
     padding: 15px;
     display: flex;
