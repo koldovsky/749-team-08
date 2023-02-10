@@ -97,6 +97,10 @@
     margin: 10px;
     word-wrap: none;
 }
+.header__button:hover {
+    background-color: var(--link-hover-color-light);
+    border: 1px solid var(--light-shade-color);
+}
 
 .header__box {
     display: flex;
