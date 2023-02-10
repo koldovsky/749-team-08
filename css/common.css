@@ -44,5 +44,5 @@ h2{
     font-family: 'Bebas Neue', cursive;
     font-size: 56px;
     text-align: center;
-    color: var(-)
+    color: var(--text-color);
 }
