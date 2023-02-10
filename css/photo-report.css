@@ -1,0 +1,11 @@
+.photo-report__item{
+    max-width: 380px;
+}
+
+.photo-report__gallery{
+    padding: 24px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
