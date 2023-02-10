@@ -1,9 +1,5 @@
 .photo-report__item{
-<<<<<<< HEAD
-    max-width: 380px;
-=======
     max-width: 31.75%;
->>>>>>> 49e0975202841c96761c4d626ed1347824f54536
 }
 
 .photo-report__gallery{
@@ -11,11 +7,7 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-<<<<<<< HEAD
     align-items: flex-start;
-=======
-    align-items: flex-end;
-
 }
 .photo-report{
     min-height: 100vh;
@@ -25,5 +17,4 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
->>>>>>> 49e0975202841c96761c4d626ed1347824f54536
 }
