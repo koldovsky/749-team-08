@@ -1,13 +1,19 @@
 
-
 .photo-report__gallery{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 30px;
+    grid-row-gap: 50px;
 }
+
 
 .photo-report__container{
     padding: 60px 24px 90px 24px;
+}
+
+@media (min-width: 968px) {
+    .photo-report__gallery{
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 30px;
+    }
 }
 
 .photo-report{
@@ -21,9 +27,13 @@
 }
 
 .pr-font{
+    font-size: 38px;
+    font-weight: 400;
     color: var(--light-shade-color);
+    margin-bottom: 40px;
 }
 
 .pr-dots{
+    font-size: 73px;
     color: var(--brand-color);
 }
