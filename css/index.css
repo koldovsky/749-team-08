@@ -1,12 +1,11 @@
 @import url(common.css);
-@import url(issues.css);
-@import url(schedule.css);
 @import url(header.css);
 @import url(about-conference.css);
+@import url(issues.css);
+@import url(content.css);
+@import url(speakers.css);
+@import url(schedule.css);
+@import url(logos-carusel.css);
 @import url(photo-report.css);
 @import url(question.css);
 @import url(footer.css);
-@import url(contacts.css);
-@import url(speakers.css);
-@import url(logos-carusel.css);
-@import url(content.css);
