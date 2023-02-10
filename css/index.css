@@ -1,6 +1,5 @@
 @import url(common.css);
 @import url(issues.css);
-@import url(schedule.css);
 @import url(header.css);
 @import url(photo-report.css);
 @import url(question.css);
@@ -9,3 +8,4 @@
 @import url(speakers.css);
 @import url(content.css);
 @import url(carusel.css);
+@import url(schedule.css);
