@@ -1,10 +1,10 @@
-.logos-carusel {
+.logos-carousel {
     place-items: center;
     background-color: #1f3138;
 
 }
 
-.carusel__header {
+.carousel__header {
     font-family: 'Bebas Neue';
     color: #ffffff;
     place-items: center;
@@ -28,7 +28,7 @@
     margin: auto;
 }
 
-.carusel__points {
+.carousel__points {
     color: #CB4E3A;
     font-size: 76px;
 }
@@ -54,12 +54,12 @@
   }
 
 @media (min-width:320px) {
-    .carusel__header {
+    .carousel__header {
         display: grid;
         justify-content: center;
     }
 
-    .carusel__blocks {
+    .carousel__blocks {
         display: grid;
         grid-template-columns: 1fr;
         gap: 30px;
@@ -68,7 +68,7 @@
 }
 
 @media (min-width:768px) {
-    .carusel__blocks {
+    .carousel__blocks {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 30px;
@@ -80,7 +80,7 @@
 }
 
 @media(min-width:992px) {
-    .carusel__blocks {
+    .carousel__blocks {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         gap: 30px;
