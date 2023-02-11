@@ -16,6 +16,7 @@ color:rgb(31,49,56);
 display: inline;
 text-align: left;
 letter-spacing: -1.46px;
+font-family: ;
 }
 .photo__conference {
     background-color:rgba(31,49,56,0.62);
@@ -24,6 +25,7 @@ letter-spacing: -1.46px;
     width: 234px;
     display:block;
     font-weight:400;
+    object-fit: cover;
     
 }
 .welcome__main__text {
