@@ -33,9 +33,21 @@
  }
  .w-text-content{
     font-family: Lato;
+    font-weight: 500;
  }
+ 
   .header__icons{
    width: 30px;
+ }
+ .speakers__person{
+    width: 38%;
+    height: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+     
+
  }
    
  
