@@ -1,8 +1,12 @@
+.speakers__block{
+  background-color: #F1EFE5;
+}
+
 .text-ui-dark-accent-color{
     font-weight: bold;
     font-size: 73px;
     display: block;
-    font-family: nebas-neue;
+    font-family: "Bebas Neue", cursive;
     box-sizing: border-box;
     color: rgb(33, 128, 136);
     font-style: normal;
@@ -16,7 +20,7 @@
     text-transform: none;
     font-size: 56px;
     font-style: normal;
-    font-family: nebas-neue;
+    font-family:"Bebas Neue", cursive;
     font-weight: 400;
     box-sizing: border-box;
     letter-spacing: -1.46px;
@@ -26,31 +30,44 @@
  }
  
  
- .speacers__smith{
+ .speakers__person{
     text-align: center;
-    font-family: nebas-neue;
+    font-family: "Bebas Neue", cursive;
     font-size: 24px;
  }
  .w-text-content{
-    font-family: Lato;
+    font-family: "Lato", cursive;
+    font-weight: 100;
+    color: black;
  }
  
- .speacers__tissen{
+  .header__icons{
+   width: 30%;
+   height: 100%;
+   display: block;
+   margin: auto;
+   display: flex;
+  justify-content: space-between;
+   
+ }
+ 
+ .speakers__person{
+    width: 38%;
+    height: 100%;
     text-align: center;
-    font-family: nebas-neue;
-    font-size: 24px;
+    display: block;
+    margin: auto;
 
  }
- .speacers__khu{
-    text-align: center;
-    font-family: nebas-neue;
-    font-size: 24px; 
+ .speacers__person-name{
+   font-family: "Bebas Neue", cursive;
+   font-size: 24px;
+   font-weight: 800;
+   text-align: center;
+
  }
- .speacers__gibson{
-    text-align: center;
-    font-family: nebas-neue;
-    font-size: 24px;
+ .header__icons{
+   width: 30px;
  }
  
    
- 
