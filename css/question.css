@@ -74,6 +74,7 @@
 	border: none;
 	cursor: pointer;
 	background-color: #efc94c;
+	margin-bottom: 110px;
 }
 
 .question__form-button:hover {
