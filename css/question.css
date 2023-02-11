@@ -21,12 +21,52 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	max-width: 530px;
+	margin: auto;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 110px;
+}
+
+.question__devider {
+	font-family: "Bebas Neue";
+	font-size: 73px;
+	color: #cb4e3a;
 }
 
 .question__form-title {
 	font-size: 56px;
+	margin-top: 24px;
 }
 
 .question__form-subtitle {
 	font-size: 20px;
+	margin-top: 24px;
+}
+
+.question__input {
+	background-color: rgba(31, 49, 56, 0.12);
+	border: none;
+	margin-top: 24px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	padding: 14px 20px;
+	width: 100%;
+}
+
+.question__form-button {
+	padding: 14px 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	margin-top: 50px;
+	width: 100%;
+	height: 100%;
+	border: none;
+	cursor: pointer;
+	background-color: #efc94c;
+}
+
+.question__form-button:hover {
+	background-color: #cb4e3a;
+	color: #fff;
 }
