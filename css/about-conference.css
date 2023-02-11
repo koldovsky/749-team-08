@@ -21,8 +21,7 @@ letter-spacing: -1.46px;
     background-color:rgba(31,49,56,0.62);
     font-size: 17px;
     font-weight: 400;
-    height: 234px;
-    position: absolute;
+    width: 234px;
 }
 .welcome__main__text {
     color: rgb(31,49,56);
