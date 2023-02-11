@@ -1,3 +1,7 @@
+.speakers__block{
+  background-color: #F1EFE5;
+}
+
 .text-ui-dark-accent-color{
     font-weight: bold;
     font-size: 73px;
@@ -33,11 +37,16 @@
  }
  .w-text-content{
     font-family: Lato;
-    font-weight: 500;
+    font-weight: 100;
  }
  
   .header__icons{
    width: 30px;
+   height: 100%;
+   display: block;
+   margin: auto;
+
+   
  }
  .speakers__person{
     width: 38%;
@@ -45,8 +54,13 @@
     text-align: center;
     display: block;
     margin: auto;
-    
-     
+
+ }
+ .speacers__person-name{
+   font-family: nebas-neue;
+   font-size: 24px;
+   font-weight: 800;
+   text-align: center;
 
  }
    
