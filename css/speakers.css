@@ -26,7 +26,7 @@
  }
  
  
- .speacers__smith{
+ .speakers__person{
     text-align: center;
     font-family: nebas-neue;
     font-size: 24px;
@@ -34,23 +34,8 @@
  .w-text-content{
     font-family: Lato;
  }
- 
- .speacers__tissen{
-    text-align: center;
-    font-family: nebas-neue;
-    font-size: 24px;
-
+  .header__icons{
+   width: 30px;
  }
- .speacers__khu{
-    text-align: center;
-    font-family: nebas-neue;
-    font-size: 24px; 
- }
- .speacers__gibson{
-    text-align: center;
-    font-family: nebas-neue;
-    font-size: 24px;
- }
- 
    
  
