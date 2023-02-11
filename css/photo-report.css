@@ -1,11 +1,10 @@
 
-.photo-report__gallery{
+.photo-report__gallery {
     display: grid;
     grid-row-gap: 50px;
 }
 
-
-.photo-report__container{
+.photo-report__container {
     padding: 60px 24px 90px 24px;
 }
 
@@ -16,7 +15,7 @@
     }
 }
 
-.photo-report{
+.photo-report {
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 123, 151, 0.92), rgba(0, 123, 151, 0.92)),
     url("../img/photo-report-bg.webp");
@@ -26,14 +25,14 @@
     background-attachment: fixed;
 }
 
-.pr-font{
+.pr-font {
     font-size: 38px;
     font-weight: 400;
     color: var(--light-shade-color);
     margin-bottom: 40px;
 }
 
-.pr-dots{
+.pr-dots {
     font-size: 73px;
     color: var(--brand-color);
 }

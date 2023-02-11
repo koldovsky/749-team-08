@@ -1,0 +1,56 @@
+.text-ui-dark-accent-color{
+    font-weight: bold;
+    font-size: 73px;
+    display: block;
+    font-family: nebas-neue;
+    box-sizing: border-box;
+    color: rgb(33, 128, 136);
+    font-style: normal;
+    text-transform: none;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+.courses__subtitle{
+    text-align: center;
+    text-transform: none;
+    font-size: 56px;
+    font-style: normal;
+    font-family: nebas-neue;
+    font-weight: 400;
+    box-sizing: border-box;
+    letter-spacing: -1.46px;
+    line-height: 87.6px;
+    width: 100%;
+    height: auto;
+ }
+ 
+ 
+ .speacers__smith{
+    text-align: center;
+    font-family: nebas-neue;
+    font-size: 24px;
+ }
+ .w-text-content{
+    font-family: Lato;
+ }
+ 
+ .speacers__tissen{
+    text-align: center;
+    font-family: nebas-neue;
+    font-size: 24px;
+
+ }
+ .speacers__khu{
+    text-align: center;
+    font-family: nebas-neue;
+    font-size: 24px; 
+ }
+ .speacers__gibson{
+    text-align: center;
+    font-family: nebas-neue;
+    font-size: 24px;
+ }
+ 
+   
+ 

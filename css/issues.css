@@ -1,18 +1,22 @@
-.issues {
+.issues {   
     text-align: center;
     padding-bottom: 80px;
     padding-top: 60px;
-    background-image: linear-gradient(rgba(203, 78, 58, 0.90), rgba(203, 78, 58, 0.90)), url(../img/issues-bg.webp);
-    color: #fffff3;
+    background-image: linear-gradient(rgba(203, 78, 58, 0.80), rgba(203, 78, 58, 0.95)), url(../img/issues-bg.webp);
+    color: var(--link-color-light);
     font-family: 'Lato', sans-serif;
     background-size: cover;
 }
 
 .issues__title {
-    color: #fffff3;
+    color: var(--link-color-light);
     letter-spacing: -1.46px;
     line-height: 67.2px;
     font-weight: 400;
+    margin-bottom: 50px;
+}
+.issues__subtitle {
+    margin-bottom: 50px;
 }
 
 .issues__item span {
@@ -22,11 +26,11 @@
     line-height: 78px;
     letter-spacing: -1.3px;
     font-family: 'Bebas Neue', cursive;
-    ;
+
 }
 
 .divider__points {
-    color: rgb(249, 201, 76);
+    color: var(--brand-color);
     text-align: center;
     font-size: 73px;
     font-family: 'Bebas Neue', cursive;
@@ -49,6 +53,7 @@
     .issues__blocks {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px 50px;
     }
 }
 
@@ -62,8 +67,8 @@
 .divider {
     padding: 15px;
     display: flex;
-    color: rgb(249, 201, 76);
-    font-size: 17px;
+    color: var(--brand-color);
+    font-size: 27px;
     font-family: 'Bebas Neue', cursive;
     justify-content: center;
 }
