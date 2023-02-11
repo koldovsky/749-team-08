@@ -4,12 +4,20 @@
 	}
 }
 
+@media (min-width: 768px) {
+	.picx {
+		height: 100%;
+		width: 100%;
+	}
+}
+
 .question__pic-block {
 	position: relative;
 }
 
 .question__pic {
-	width: 100%;
+	max-width: 110%;
+	position: relative;
 }
 
 .question__effect-pic {
@@ -19,13 +27,11 @@
 	position: absolute;
 	top: 0;
 	right: 0;
-	bottom: 0;
-	left: 0;
 }
 
 .question__form {
 	margin-top: 110px;
-	width: 100%;
+	width: 90%;
 }
 
 .question__form-container {
