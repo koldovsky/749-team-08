@@ -1,0 +1,70 @@
+.main-contacts {
+    background-image: linear-gradient(rgba(203, 78, 58, 0.80), rgba(203, 78, 58, 0.95)),
+    url("../img/main-contacts/main-contacts-bg.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+@media (min-width: 828px) {
+
+    .main-contacts__channels {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    p.channel-caption {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1088px) {
+    
+    .main-contacts__channels {
+        grid-template-columns: repeat(4, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+.main-contacts__container {
+    padding: 60px 24px 90px 24px;
+}
+
+.channel-icon {
+    max-width: 50px;
+    color: var(--light-shade-color);
+    margin-bottom: -24px;
+}
+
+.channel-divider {
+    width: 20%;
+    height: 3px;
+    margin: 20px 0;
+    background-color: var(--brand-color);
+}
+
+p.channel-caption {
+    font-family: 'Bebas Neue', cursive;
+    color: var(--link-color-light);
+    font-size: 24px;
+}
+
+.main-contacts__channels {
+    display: grid;
+}
+
+.channel-details {
+    min-width: 100%;
+    text-align: center;
+}
+
+.channel-details a {
+    color: var(--link-color-light);
+    font-size: 20px;
+    line-height: 1.2em;
+}
+
+.main-contacts__channels-item {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
