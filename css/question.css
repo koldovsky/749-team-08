@@ -1,3 +1,9 @@
+@media (min-width: 768px) {
+	.question {
+		display: flex;
+	}
+}
+
 .question__pic-block {
 	position: relative;
 }
@@ -18,14 +24,18 @@
 }
 
 .question__form {
+	margin-top: 110px;
+	width: 100%;
+}
+
+.question__form-container {
+	max-width: 530px;
+	margin: auto;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	max-width: 530px;
-	margin: auto;
 	padding-left: 25px;
 	padding-right: 25px;
-	margin-top: 110px;
 }
 
 .question__devider {
