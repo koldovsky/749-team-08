@@ -6,7 +6,7 @@
     font-weight: bold;
     font-size: 73px;
     display: block;
-    font-family: "Bebas Neue", cursive;
+    font-family: "Bebas Neue";
     box-sizing: border-box;
     color: rgb(33, 128, 136);
     font-style: normal;
@@ -34,6 +34,12 @@
     text-align: center;
     font-family: "Bebas Neue", cursive;
     font-size: 24px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+   
  }
  .w-text-content{
     font-family: "Lato", cursive;
@@ -48,7 +54,7 @@
    margin: auto;
    display: flex;
   justify-content: space-between;
-   
+    
  }
  
  .speakers__person{
