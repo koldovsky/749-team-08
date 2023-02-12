@@ -1,20 +1,3 @@
-@media (min-width: 768px) {
-	.footer__container {
-		display: flex;
-	}
-
-	.footer__nav {
-		display: flex;
-	}
-
-	.footer__end {
-		display: flex;
-		justify-content: space-between;
-	}
-
-}
-
-
 .footer {
 	background-color: #1f3138;
 	padding: 25px 25px;
@@ -149,4 +132,34 @@
 	color: #fff;
 	font-size: 12px;
 	font-family: "Lato";
+}
+
+@media (min-width: 768px) {
+	.footer__container {
+		display: flex;
+	}
+
+	.footer__logo {
+		margin-right: auto
+	}
+
+	.footer__info {
+		text-align: left;
+	}
+
+	.footer__nav {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.footer__link {
+		padding-right: 140px;
+		text-align: left;
+	}
+
+	.footer__end {
+		display: flex;
+		justify-content: space-between;
+	}
+
 }

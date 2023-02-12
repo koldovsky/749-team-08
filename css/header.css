@@ -1,6 +1,14 @@
+.header__container {
+    padding: 10px 40px 0px 40px;
+}
+
 .header__nav-logo-img {
     width: 128px;
-    margin: 3px;
+}
+
+.header__logo-mobile {
+    display: none;
+    width: 150px;
 
 }
 
@@ -8,18 +16,37 @@
     .header {
         background-image: url(../img/heder_image_1200px.png);
         background-position: center;
-        background-repeat: no-repeat;
+        background-repeat: no-repeat 50% 51%;
         background-size: cover;
     }
 
-    .header__title {
-        font-size: 64px;
-    }
+.header__title {
+    font-family: "Bebas Neue", cursive;
+    color: var(--light-shade-color);
+    font-size: 64px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: none;
 
-    .header__subtitle {
-        font-size: 34px;
-    }
 }
+
+.header__subtitle {
+    font-family: "Bebas Neue", cursive;
+    color: var(--light-shade-color);
+    font-size: 34px;
+    max-width: 300px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.title__time {
+    color: var(--brand-color);
+}
+
+.header__title-point {
+    color: var(--light-accent-color);
+}
+
 
 @media (min-width: 768px) {
     .header {
@@ -49,39 +76,12 @@
     }
 }
 
-@media (max-width: 992px) {
-    .header__nav {
-        display: none;
-    }
-}
-
-.header__title {
-    font-family: "Bebas Neue", cursive;
-    color: var(--light-shade-color);
-    font-weight: 400;
-    text-align: left;
-    text-transform: none;
-
-}
-
-.header__subtitle {
-    font-family: "Bebas Neue", cursive;
-    color: var(--light-shade-color);
-    max-width: 300px;
-    margin-top: 35px;
-    margin-bottom: 35px;
-}
-
-.title__time {
-    color: var(--brand-color);
-}
-
-.header__title-point {
-    color: var(--light-accent-color);
-}
-.header__svg {
-    width: 26px;
-    height: 26px;
+.header__nav {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: start;
+    min-height: 95px;
+    justify-content: space-between;
 }
 
 .header__button {
@@ -96,6 +96,7 @@
     padding: 18px 30px 18px 30px;
     margin: 10px;
 }
+
 .header__button:hover {
     background-color: var(--link-hover-color-light);
     border: 1px solid var(--light-shade-color);
@@ -116,9 +117,7 @@
     flex-wrap: wrap;
 }
 
-.header__info-action {
-    display: flex;
-}
+
 
 .button__shedule {
     background-color: var(--brand-color);
@@ -128,11 +127,79 @@
     background-color: var(--light-shade-color);
 }
 
-.menu__item,
-.header__nav-action-link {
-
-    font-size: 17px;
+.menu__item {
     color: var(--light-shade-color);
     text-decoration: none;
     font-weight: 700;
+    margin: 5px 8px 5px 8px;
+    padding: 5px 2px 5px 2px;
+    text-align: start;
+    white-space: nowrap;
+
+}
+
+.header__svg {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+    color: var(--light-shade-color);
+    display: block;
+}
+
+.header__svg:hover {
+    color: var(--brand-color);
+}
+
+.menu__item:hover {
+    color: var(--brand-color);
+}
+
+.header__nav-left {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header__nav-action-link {
+    border: 1px solid var(--light-shade-color);
+    outline: 1px solid red;
+    color: var(--text-color);
+    padding-left: 18px;
+    padding-right: 18px;
+
+}
+
+.header__nav-action-link:hover {
+    background-color: var(--light-shade-color);
+    color: var(--text-color);
+
+}
+
+.link-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+@media (max-width: 992px) {
+    .header__nav {
+        display: none;
+    }
+
+    .header__logo-mobile {
+        display: block;
+    }
+}
+
+@media (max-width: 1052px) {
+    .link-container {
+        display: flex;
+        flex-direction: column;
+    }
+
 }
