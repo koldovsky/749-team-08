@@ -34,7 +34,7 @@ box-sizing: border-box;
     display:block;
     font-weight:400;
     object-fit: cover;
-    
+    float: right;
 }
 .welcome_to_climate_change {
     color: rgb(31,49,56);
