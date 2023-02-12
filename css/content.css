@@ -1,10 +1,10 @@
-.section__content {
+.content {
     background-color: rgb(255, 255, 255);
     padding-bottom: 60px;
     padding-top: 60px;
     min-width: 320px;
 }
-.icon__dots {
+.dots {
     font-family: 'Bebas Neue', cursive;
     font-size: 73px;
     color: rgb(203, 78, 58);
@@ -19,7 +19,7 @@
     justify-content: center;
     width: 272px;
 }
-.section__content-title {
+.content__title {
     font-family: 'Bebas Neue', cursive;
     font-size: 56px;
     font-weight: bold;
