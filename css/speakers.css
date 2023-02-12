@@ -71,3 +71,15 @@
     font-weight: 800;
     text-align: center;
 }
+
+.social-icon{
+    max-width: 32px;
+}
+
+.header__icons a{
+    color: var(--light-accent-color);
+}
+
+.header__icons a:hover{
+    color: rgba(203, 78, 58, 0.80);
+}
