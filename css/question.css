@@ -1,9 +1,3 @@
-@media (min-width: 768px) {
-	.question {
-		display: flex;
-	}
-}
-
 .picx {
 	object-fit: cover;
 	width: 100%;
@@ -85,4 +79,10 @@
 .question__form-button:hover {
 	background-color: #cb4e3a;
 	color: #fff;
+}
+
+@media (min-width: 768px) {
+	.question {
+		display: flex;
+	}
 }
