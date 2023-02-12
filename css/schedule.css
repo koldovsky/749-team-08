@@ -7,16 +7,20 @@
   background-attachment: fixed;
   padding-top: 60px;
   padding-bottom: 90px;
+  padding-left: 24px;
+  padding-right: 24px;
   color: var(--light-shade-color);
 }
 
 .schedule__title {
   text-align: center;
-  color: var(--light-shade-color) !important;
+  color: var(--light-shade-color);
 }
 
 .schedule__title-text {
   text-align: center;
+  margin-top: 25px;
+  font-size: 20px;
 }
 
 .schedule__dots {
@@ -33,9 +37,7 @@
   padding-right: 44px;
   padding-top: 27px;
   padding-bottom: 27px;
-  color:
-    /*var(--text-color)*/
-    #1f3138;
+  color:var(--text-color);
 }
 
 .schedule__speaker-photo {
@@ -52,4 +54,5 @@
 
 .schedule__speaker-topic {
   font-family: var(--heading-font);
+
 }
