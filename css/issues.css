@@ -1,4 +1,4 @@
-.issues {
+.issues {   
     text-align: center;
     padding-bottom: 80px;
     padding-top: 60px;
@@ -6,7 +6,6 @@
     color: var(--link-color-light);
     font-family: 'Lato', sans-serif;
     background-size: cover;
-    background-position: 50% 50%;
 }
 
 .issues__title {
@@ -16,12 +15,7 @@
     font-weight: 400;
     margin-bottom: 50px;
 }
-
 .issues__subtitle {
-    margin-bottom: 100px;
-}
-
-.issues__blocks {
     margin-bottom: 50px;
 }
 

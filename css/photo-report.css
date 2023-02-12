@@ -1,3 +1,4 @@
+
 .photo-report__gallery {
     display: grid;
     grid-row-gap: 50px;
@@ -20,7 +21,6 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 30px;
     }
-
     .pr-font {
         font-size: 56px !important;
     }
@@ -29,7 +29,7 @@
 .photo-report {
     min-height: 100vh;
     background-image: linear-gradient(rgba(0, 123, 151, 0.92), rgba(0, 123, 151, 0.92)),
-        url("../img/photo-report/photo-report-bg.webp");
+    url("../img/photo-report/photo-report-bg.webp");
     background-position: 0 15%;
     background-size: cover;
     background-repeat: no-repeat;
