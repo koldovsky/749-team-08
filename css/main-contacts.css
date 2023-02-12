@@ -1,6 +1,6 @@
 .main-contacts {
     background-image: linear-gradient(rgba(203, 78, 58, 0.80), rgba(203, 78, 58, 0.95)),
-    url("../img/main-contacts/main-contacts-bg.webp");
+        url("../img/main-contacts/main-contacts-bg.webp");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@
 }
 
 @media (min-width: 1088px) {
-    
+
     .main-contacts__channels {
         grid-template-columns: repeat(4, 1fr);
         grid-gap: 30px;
