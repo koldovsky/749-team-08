@@ -9,52 +9,46 @@
 	<link rel="shortcut icon" href="img/earth_icon.png" type="image/x-icon">
 	<link rel="stylesheet" href="css/index.css">
 </head>
-
 <body>
 
 	<!-- Serhii Buza start-->
 	<Header class="header">
-		<div class="container">
+		<div class="container header__container">
+			<a href="#" class="header__nav-logo">
+				<img class="header__nav-logo-img" src="img/header__logo.png" alt="header-logo">
+			</a>
 			<nav class="header__nav">
-				<a href="#" class="header__nav-logo">
-					<img class="header__nav-logo-img" src="img/header__logo.png" alt="header-logo">
-				</a>
 				<div class="header__nav-menu menu">
 					<a class="menu__item" href="#">About</a>
 					<a class="menu__item" href="#">Speakers</a>
 					<a class="menu__item" href="#">Schedule</a>
 					<a class="menu__item" href="#">Partners</a>
 					<a class="menu__item" href="#">Contacts</a>
-				</div>
-				<div class="header__nav-action">
-					<div>
-						<a href="#"> Early-bird Tickets</a>
-					</div>
-					<div class="header__icons icons">
-						<a href="#" class="icons__facebook">
-							<svg>
-								<use href="img/facebook__icon.svg#facebook"> </use>
-							</svg>
-						</a>
-						<a href="#" class="icons__instagram">
-							<svg>
-								<use href="img/instagram__icon.svg#instagram"> </use>
-							</svg>
-						</a>
-						<a href="#" class="icons__youtube">
-							<svg>
-								<use href="img/youtube__icon.svg#youtube"> </use>
-							</svg>
-						</a>
+					<div class="link-container">
+						<a class=" menu__item header__nav-action-link" href="#"> Early-bird Tickets</a>
+						<div class=" header__nav-icons icons">
+							<a href="#" class="menu__item icons__facebook">
+								<svg class="header__svg">
+									<use href="img/facebook__icon.svg#facebook"> </use>
+								</svg>
+							</a>
+							<a href="#" class="menu__item icons__instagram">
+								<svg class="header__svg">
+									<use href="img/instagram__icon.svg#instagram"> </use>
+								</svg>
+							</a>
+							<a href="#" class="menu__item icons__youtube">
+								<svg class="header__svg">
+									<use href="img/youtube__icon.svg#youtube"> </use>
+								</svg>
+							</a>
+						</div>
 					</div>
 				</div>
+
+
 			</nav>
-			<h1 class="header__title">
-				Climate Change
-				<span>
-					.
-				</span>
-			</h1>
+			<h1 class="header__title">Climate Change<span>.</span></h1>
 			<div>
 				<div class="header__info">
 					<p class="header__subtitle">
@@ -64,12 +58,13 @@
 				</div>
 				<div class="header__info-action">
 					<a href="#" class="header__button button__shedule button">Schedule</a>
-					<a href="#" class="header__button  button__contact button">Contact US</a>
+					<a href="#" class="header__button button__contact button">Contact US</a>
 				</div>
 			</div>
 		</div>
 	</Header>
 	<!-- Serhii Buza end-->
+	
 	<main>
 		<!--2.Sophia Kos - begin-->
 		<section class="about__conference">
@@ -98,7 +93,7 @@
 			<h2 class="issues__title">
 				Climate Change Issues</h2>
 			<p class="issues__subtitle">This is what has already happened with our planet:</p>
-			<div class="issues__blocks">
+			<div class="issues__blocks container">
 				<div class="issues__item item">
 					<span>1,5 °C</span>
 					<p class="item__info">is the increase of the average temperature around the world</p>
@@ -134,60 +129,121 @@
 			<div class="content__box">
 				<img class="content__box-icon" width="449" src="img/trees_icon.svg" alt="Trees">
 				<h3 class="content__box-title">Climate change impacts</h3>
-				<p class="content__box-description">On biodiversity conservation and natural resource management.
-					Hundreds
-					of animals and plants are already extinct. What will be next?</p>
+				<p class="content__box-description">
+					On biodiversity conservation and natural resource management. Hundreds of animals and plants are already extinct. What will be next?
+				</p>
 			</div>
 			<div class="content__box">
 				<img class="content__box-icon" width="482" src="img/hand_with_plant_icon.svg" alt="Hand with a plant">
 				<h3 class="content__box-title">Climate prediction</h3>
-				<p class="content__box-description">Modeling and detection of recent and future climate change. What is
-					already implemented, what technologies are still being developed.</p>
+				<p class="content__box-description">
+					Modeling and detection of recent and future climate change. What is already implemented, what technologies are still being developed.
+				</p>
 			</div>
 			<div class="content__box">
 				<img class="content__box-icon" width="481" src="img/earth_icon.svg" alt="Earth">
 				<h3 class="content__box-title">Long-term climate monitoring</h3>
-				<p class="content__box-description">Climate change is one of the main challenges today. To predict the
-					future of our planet, we need to conduct long-term climate monitoring.</p>
+				<p class="content__box-description">
+					Climate change is one of the main challenges today. To predict the future of our planet, we need to conduct long-term climate monitoring.
+				</p>
 			</div>
 			<div class="content__box">
 				<img class="content__box-icon" width="320" src="img/light_bulb_icon.svg" alt="Light bulb">
 				<h3 class="content__box-title">Renewable energy</h3>
-				<p class="content__box-description">In 2010, 16.7% of global energy consumption came from renewable
-					sources.
-					In 2015, this indicator amounted to 19.3%. But it's too slow to stop the dramatical changes.</p>
+				<p class="content__box-description">
+					In 2010, 16.7% of global energy consumption came from renewable sources. In 2015, this indicator amounted to 19.3%. But it's too slow to stop the dramatical changes.
+				</p>
 			</div>
 			<div class="content__box">
 				<img class="content__box-icon" width="480" src="img/manufacturing_icon.svg" alt="Manufacturing">
 				<h3 class="content__box-title">Climate change impacts</h3>
-				<p class="content__box-description">Countries all over the world should combat climate change and step
-					up
-					the activities needed to achieve sustainable low-carbon development.</p>
+				<p class="content__box-description">
+					Countries all over the world should combat climate change and step up the activities needed to achieve sustainable low-carbon development.
+				</p>
 			</div>
 			<div class="content__box">
 				<img class="content__box-icon" width="480" src="img/bio_icon.svg" alt="BIO">
 				<h3 class="content__box-title">Climate change impacts</h3>
-				<p class="content__box-description">Everyone should have physical and economic access to quality food.
-					What
-					will happen to the food security when the climate changes critically?</p>
+				<p class="content__box-description">
+					Everyone should have physical and economic access to quality food. What will happen to the food security when the climate changes critically?
+				</p>
 			</div>
 		</section>
 		<!--4.Yuliia Panchyshyn - end-->
 
-		<!--5.Taras Pokroveckiy - begin-->
-		<section class="speakers__block">
-			<span class="text-ui-dark-accent-color" style="color: #21806A; font-size:73px">...</span>
-			<section class="speacers__subtitle">
-				<p class="courses__subtitle subtitle">OUR SPEAKERS</p>
-			</section>
-			<div class="speacers__smith">
-				<img style="width: 38%; height: 100%;" src="img/speakers/emma-smith.jfif" alt="Emma Smit">
-				<p class="speacers__smith">EMMA SMITH</p>
-				<a href="#" class="speacers__smith-text">
-					<span class="w-text-block" style="display:block"><span class="w-text-content">Environmental
-							activist. Our special guest & speaker.</span></span>
-				</a>
-				<div class="header__icons">
+        <!--5.Taras Pokroveckiy - begin-->
+        <section class="speakers__block">
+            <span class="text-ui-dark-accent-color" style="color: #21806A; font-size:73px">...</span>
+            <section class="speakers__subtitle">
+                <p class="courses__subtitle subtitle">OUR SPEAKERS</p>
+            </section>
+            <div class="speakers__person">
+                <img src="img/speakers/emma-smith.jfif" alt="Emma Smit">
+                <p class="speacers__person-name">EMMA SMITH</p>
+                <a href="#" class="speacers__smith-text">
+                    <span class="w-text-block" style="display:block"><span class="w-text-content">Environmental
+                            activist. Our special guest & speaker.</span></span>
+                </a>
+                <div class="header__icons">
+                    <a href="#" class="icons__facebook">
+                        <img src="img/facebook__icon.svg" alt="Facebook icon">
+                    </a>
+                    <a href="#" class="icons__instagram">
+                        <img src="img/instagram__icon.svg" alt="Instagram icon">
+                    </a>
+                    <a href="#" class="icons__youtube">
+                        <img src="img/youtube__icon.svg" alt="You Tube icon">
+                    </a>
+                </div>
+
+            </div>
+            <div class="speakers__person">
+                <img width="300" src="img/speakers/calvin-tissen.jfif" alt="Calvin Tissen">
+                <p class="speacers__person-name">CALVIN TISSEN</p>
+                <a href="#" class="speacers__tissen-text">
+                    <span class="w-text-content">Professor of Political Economy,Sorbone,France</span>
+                </a>
+                <div class="header__icons">
+                    <a href="#" class="icons__facebook">
+                        <img src="img/facebook__icon.svg" alt="Facebook icon">
+                    </a>
+                    <a href="#" class="icons__instagram">
+                        <img src="img/instagram__icon.svg" alt="Instagram icon">
+                    </a>
+                    <a href="#" class="icons__youtube">
+                        <img src="img/youtube__icon.svg" alt="You Tube icon">
+                    </a>
+                </div>
+
+            </div>
+            <div class="speacers__khu">
+                <img width="300" src="img/speakers/gabriel-khu.jfif" alt="Gabriel Khu">
+                <p class="speacers__khu">GABRIEL KHU</p>
+                <a href="#" class="speacers__khu-text">
+                    <span class="w-text-content">Climate Change Research Dept Chair, MIT, USA</span>
+                </a>
+                <div class="header__icons">
+                    <a href="#" class="icons__facebook">
+                        <img src="img/facebook__icon.svg" alt="Facebook icon">
+                    </a>
+                    <a href="#" class="icons__instagram">
+                        <img src="img/instagram__icon.svg" alt="Instagram icon">
+                    </a>
+                    <a href="#" class="icons__youtube">
+                        <img src="img/youtube__icon.svg" alt="YouTube icon">
+                    </a>
+                </div>
+
+
+            </div>
+            <div class="speakers__person">
+                <img width="300" src="img/speakers/luisw-gibson.jfif" alt="Luise Gibson">
+                <p class="speacers__person-name">LUISE GIBSON</p>
+                <a href="#" class="speacers__khu-text">
+                    <span class="w-text-block" style="display:block"><span class="w-text-content">Chief Executive
+                            Officer,<br>Climate Matters, UK</span></span>
+                </a>
+                <div  class="header__icons">
 					<a href="#" class="icons__facebook">
 						<img src="img/facebook__icon.svg" alt="Facebook icon">
 					</a>
@@ -198,80 +254,8 @@
 						<img src="img/youtube__icon.svg" alt="You Tube icon">
 					</a>
 				</div>
-
-			</div>
-			<div class="speacers__tissen">
-				<img width="300" src="img/speakers/calvin-tissen.jfif" alt="Calvin Tissen">
-				<p class="speacers__tissen">CALVIN TISSEN</p>
-				<a href="#" class="speacers__tissen-text">
-					<span class="w-text-content">Professor of Political Economy,Sorbone,France</span>
-				</a>
-				<div class="header__icons">
-					<a href="#" class="icons__facebook">
-						<img src="img/facebook__icon.svg" alt="Facebook icon">
-					</a>
-					<a href="#" class="icons__instagram">
-						<img src="img/instagram__icon.svg" alt="Instagram icon">
-					</a>
-					<a href="#" class="icons__youtube">
-						<img src="img/youtube__icon.svg" alt="You Tube icon">
-					</a>
-				</div>
-
-			</div>
-			<div class="speacers__khu">
-				<img width="300" src="img/speakers/gabriel-khu.jfif" alt="Gabriel Khu">
-				<p class="speacers__khu">GABRIEL KHU</p>
-				<a href="#" class="speacers__khu-text">
-					<span class="w-text-content">Climate Change Research Dept Chair, MIT, USA</span>
-				</a>
-				<div class="header__icons">
-					<a href="#" class="icons__facebook">
-						<img src="img/facebook__icon.svg" alt="Facebook icon">
-					</a>
-					<a href="#" class="icons__instagram">
-						<img src="img/instagram__icon.svg" alt="Instagram icon">
-					</a>
-					<a href="#" class="icons__youtube">
-						<img src="img/youtube__icon.svg" alt="YouTube icon">
-					</a>
-				</div>
-
-
-			</div>
-			<div class="speacers__gibson">
-				<img width="300" src="img/speakers/luisw-gibson.jfif" alt="Luise Gibson">
-				<p class="speacers__khu"><strong>LUISE GIBSON</strong></p>
-				<a href="#" class="speacers__khu-text">
-					<span class="w-text-block" style="display:block"><span class="w-text-content">Chief Executive
-							Officer,<br>Climate Matters, UK</span></span>
-				</a>
-				<div class="header__icons">
-					<a href="#" class="icons__facebook">
-						<img src="img/facebook__icon.svg" alt="Facebook icon">
-					</a>
-					<a href="#" class="icons__instagram">
-						<img src="img/instagram__icon.svg" alt="Instagram icon">
-					</a>
-					<a href="#" class="icons__youtube">
-						<img src="img/youtube__icon.svg" alt="You Tube icon">
-					</a>
-				</div>
-				<div class="header__icons icons">
-					<a href="#" class="icons__facebook">
-						<img src="img/facebook__icon.svg" alt="Facebook icon">
-					</a>
-					<a href="#" class="icons__instagram">
-						<img src="img/instagram__icon.svg" alt="Instagram icon">
-					</a>
-					<a href="#" class="icons__youtube">
-						<img src="img/youtube__icon.svg" alt="You Tube icon">
-					</a>
-				</div>
-
 			</div>
 		</section>
-
 		<!--5.Taras Pokroveckiy - end-->
 
 		<!--6.Yuliia Horenchuk - begin-->
@@ -357,42 +341,42 @@
 		</section>
 		<!--6.Yuliia Horenchuk - end-->
 
-		<!--7.Stepan Bilashuk - begin-->
-		<section class="logos-carusel">
-			<div class="container">
-				<div class="carusel__header">
-					<p class="carusel__points">...</p>
-					<p class="carusel__text">CCAC 2020 Partners</p>
-				</div>
-				<div class="carucel__main-blocks"></div>
-				<button class="btn-slider btn-next"></button>
-				<div class="carusel__blocks">
-					<div class="slide">
-						<img src="img/carucel/logo_water-plus.svg" alt="Logo Water Plus">
-					</div>
-					<div class="slide">
-						<img src="img/carucel/logo_the-climat-corporation.svg" alt="Logo the Climat Corporation">
-					</div>
-					<div class="slide">
-						<img src="img/carucel/logo_english-corporation.svg" alt="Logo English Corporation">
-					</div>
-					<div class="slide">
-						<img src="img/carucel/logo_water-natural.svg" alt="Logo Water Natural">
-					</div>
-					<div class="slide">
-						<img src="img/carucel/logo_the-nature-convercary.svg" alt="Logo the Nature convercary">
-					</div>
-					<div class="slide">
-						<img src="img/carucel/logo_national-geographic.svg" alt="Logo national geograpic">
-					</div>
-				</div>
-				<div class="nav-slide" id="nav-slide"></div>
-				<button class="btn-slider btn-perv"></button>
-			</div>
-		</section>
-		<!--7.Stepan Bilashuk - end-->
+        <!--7.Stepan Bilashuk - begin-->
+        <section class="logos-carousel">
+            <div class="container">
+                <div class="carousel__header">
+                    <p class="carousel__points">...</p>
+                    <p class="carousel__text">CCAC 2020 Partners</p>
+                </div>
+                <div class="caroucel__main-blocks"></div>
+                <button class="btn-slider btn-next"></button>
+                <div class="carousel__blocks">
+                    <div class="slide">
+                        <img src="img/logos-carousel/logo_water-plus.svg" alt="Logo Water Plus">
+                    </div>
+                    <div class="slide">
+                        <img src="img/logos-carousel/logo_the-climat-corporation.svg" alt="Logo the Climat Corporation">
+                    </div>
+                    <div class="slide">
+                        <img src="img/logos-carousel/logo_english-corporation.svg" alt="Logo English Corporation">
+                    </div>
+                    <div class="slide">
+                        <img src="img/logos-carousel/logo_water-natural.svg" alt="Logo Water Natural">
+                    </div>
+                    <div class="slide">
+                        <img src="img/logos-carousel/logo_the-nature-convercary.svg" alt="Logo the Nature convercary">
+                    </div>
+                    <div class="slide">
+                        <img src="img/logos-carousel/logo_national-geographic.svg" alt="Logo national geograpic">
+                    </div>
+                </div>
+                <div class="nav-slide" id="nav-slide"></div>
+                <button class="btn-slider btn-perv"></button>
+            </div>
+        </section>
+        <!--7.Stepan Bilashuk - end-->
 
-		<!--8.Arthur Mkrtchian - begin-->
+		<!--8-9.Arthur Mkrtchian - begin-->
 		<section class="photo-report">
 			<div class="photo-report__container container">
 				<h2 class="pr-font"><span class="pr-dots">...</span><br>Photo Report From CCAC 2019</h2>
@@ -429,8 +413,12 @@
 						<p class="channel-caption">e-mail</p>
 						<div class="channel-divider"></div>
 						<div class="channel-details">
-							<a href="mailto:saveplanet@email.com"><p>saveplanet@email.com</p></a>
-							<a href="mailto:globalnest@email.com"><p>globalnest@email.com</p></a>
+							<a href="mailto:saveplanet@email.com">
+								<p>saveplanet@email.com</p>
+							</a>
+							<a href="mailto:globalnest@email.com">
+								<p>globalnest@email.com</p>
+							</a>
 						</div>
 					</div>
 					<div class="main-contacts__channels-item">
@@ -440,8 +428,12 @@
 						<p class="channel-caption">phone</p>
 						<div class="channel-divider"></div>
 						<div class="channel-details">
-							<a href="tel:+12345678900"><p>+1 (234) 567 89 00</p></a>
-							<a href="tel:+12345678901"><p>+1 (234) 567 89 01</p></a>
+							<a href="tel:+12345678900">
+								<p>+1 (234) 567 89 00</p>
+							</a>
+							<a href="tel:+12345678901">
+								<p>+1 (234) 567 89 01</p>
+							</a>
 						</div>
 					</div>
 					<div class="main-contacts__channels-item">
@@ -450,7 +442,7 @@
 						</svg>
 						<p class="channel-caption">where</p>
 						<div class="channel-divider"></div>
-						<div class="channel-details"> 
+						<div class="channel-details">
 							<p>Rockfeller Center,</p>
 							<p>New York, USA</p>
 						</div>
@@ -461,16 +453,15 @@
 						</svg>
 						<p class="channel-caption">when</p>
 						<div class="channel-divider"></div>
-						<div class="channel-details"> 
+						<div class="channel-details">
 							<p>12.02.2020</p>
 							<p>Monday: 11 AM - 9 PM</p>
 						</div>
 					</div>
 				</div>
 			</div>
-
 		</section>
-		<!--8.Arthur Mkrtchian - end-->
+		<!--8-9.Arthur Mkrtchian - end-->
 
 		<!-- 10-11.Ros Haraida begin -->
 		<!-- block question begin -->
@@ -513,20 +504,24 @@
 	<!-- footer begin -->
 
 	<footer class="footer">
-		<div class="container">
+		<div class="footer__container">
 			<div class="footer__info">
-				<img src="img/footer-logo.png" alt="footer logo">
-				<p>Welcome to the Climate Change Awareness Conference 2020 (CCAC 2020) - to be held 28 May, 2020 in
-					Rockfeller Center in New York, USA.</p>
+				<img class="footer__logo" src="img/footer-logo.png" alt="footer logo">
+				<p class="footer__logo-subtitle">
+					Welcome to the Climate Change Awareness Conference 2020 (CCAC 2020) - to be held 28 May, 2020 in Rockfeller Center in New York, USA.
+				</p>
 			</div>
 			<div class="footer__nav">
-				<a href="#" class="footer__link">About</a>
-				<a href="#" class="footer__link">Schedule</a>
-				<a href="#" class="footer__link">News</a>
-				<a href="#" class="footer__link">Speakers</a>
-				<a href="#" class="footer__link">Partners</a>
-				<a href="#" class="footer__link">Contacts</a>
-
+				<div class="footer__nav-left">
+					<a href="#" class="footer__link">About</a>
+					<a href="#" class="footer__link">Schedule</a>
+					<a href="#" class="footer__link">News</a>
+				</div>
+				<div class="footer__nav-right">
+					<a href="#" class="footer__link">Speakers</a>
+					<a href="#" class="footer__link">Partners</a>
+					<a href="#" class="footer__link">Contacts</a>
+				</div>
 			</div>
 			<div class="footer__social">
 				<p class="footer__social-text">Follow Us</p>
@@ -550,13 +545,14 @@
 				<p class="footer__form-text">Subscribe to get the latest news </p>
 				<form>
 					<input class="footer__form-email" type="text" id="emailf" name="emailf" placeholder="Email*">
-					<button class="footer__form-button" type="submit">Subscribe</button>
+					<button class="footer__form-button" type="submit"><b>Subscribe</b></button>
 				</form>
 			</div>
-			<div class="footer__end">
-				<p>© Created by team 8</p>
-				<p>All rights Reserved</p>
-			</div>
+		</div>
+		<hr class="footer__line">
+		<div class="footer__end">
+			<p>© Created by team 8</p>
+			<p>All rights Reserved</p>
 		</div>
 	</footer>
 

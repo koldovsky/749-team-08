@@ -1,0 +1,165 @@
+.footer {
+	background-color: #1f3138;
+	padding: 25px 25px;
+}
+
+.footer__container {
+	max-width: 1200px;
+	margin: auto;
+}
+
+.footer__info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	text-align: center;
+	margin-top: 80px;
+}
+
+.footer__logo {
+	width: 122px;
+	height: 53px;
+}
+
+.footer__logo-subtitle {
+	font-size: 14px;
+	color: #fff;
+	line-height: 150%;
+	padding-bottom: 25px;
+	padding-top: 20px;
+}
+
+.footer__nav {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer__form-email {
+	width: 100%;
+}
+
+.footer__nav-left {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 25px;
+}
+
+.footer__nav-right {
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 25px;
+}
+
+.footer__link {
+	margin-top: 25px;
+	font-size: 17px;
+	color: #fff;
+}
+
+.footer__social {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 20px;
+}
+
+.footer__social-text {
+	color: #fff;
+	font-size: 17px;
+
+}
+
+.footer__form {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer__form-text {
+	font-size: 17px;
+	color: #fff;
+}
+
+.footer__form-email {
+	background-color: rgba(255, 255, 255, 0.24);
+	border: none;
+	margin-top: 24px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	padding: 14px 20px;
+	width: 100%;
+	text-align: center;
+}
+
+.footer__form-email::placeholder {
+	color: #D3D3D3;
+	font-family: "Lato";
+}
+
+.footer__form-button {
+	padding: 14px 20px;
+	font-family: 'Lato', sans-serif;
+	font-size: 14px;
+	margin-top: 25px;
+	width: 100%;
+	height: 100%;
+	border: none;
+	cursor: pointer;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+.footer__form-button:hover {
+	background-color: #cb4e3a;
+	color: #fff;
+}
+
+.footer__line {
+	width: 100%;
+	height: 1px;
+	color: #696969;
+}
+
+.footer__end {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.footer__end p {
+	margin-top: 25px;
+	color: #fff;
+	font-size: 12px;
+	font-family: "Lato";
+}
+
+@media (min-width: 768px) {
+	.footer__container {
+		display: flex;
+	}
+
+	.footer__logo {
+		margin-right: auto
+	}
+
+	.footer__info {
+		text-align: left;
+	}
+
+	.footer__nav {
+		display: flex;
+		flex-direction: row;
+	}
+
+	.footer__link {
+		padding-right: 140px;
+		text-align: left;
+	}
+
+	.footer__end {
+		display: flex;
+		justify-content: space-between;
+	}
+
+}
