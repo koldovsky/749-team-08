@@ -12,16 +12,13 @@
 
 }
 
-.header__logo-mobile .header__nav-logo-img {
-    width: 100%;
-}
-
-.header {
-    background-image: url(../img/heder_image_1200px.png);
-    background-position: center;
-    background-repeat: no-repeat 50% 51%;
-    background-size: cover;
-}
+@media (max-width: 767px) {
+    .header {
+        background-image: url(../img/heder_image_1200px.png);
+        background-position: center;
+        background-repeat: no-repeat 50% 51%;
+        background-size: cover;
+    }
 
 .header__title {
     font-family: "Bebas Neue", cursive;
@@ -55,7 +52,7 @@
     .header {
         background-image: url(../img/header_image_optimized_1920.png);
         background-position: center;
-        background-repeat: no-repeat 50% 51%;
+        background-repeat: no-repeat;
         background-size: cover;
         height: 100vh;
     }
@@ -98,7 +95,6 @@
     box-sizing: border-box;
     padding: 18px 30px 18px 30px;
     margin: 10px;
-    word-wrap: none;
 }
 
 .header__button:hover {
