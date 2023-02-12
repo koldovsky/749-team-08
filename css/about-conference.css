@@ -1,6 +1,9 @@
 .about__conference {
 text-align: left;
 font-family:'Bebas Neue',cursive;
+position: relative;
+left: 15px;
+bottom: 10px;
 }
 .divided__doots {
     color: rgb(203,78,58);
@@ -16,18 +19,44 @@ color:rgb(31,49,56);
 display: inline;
 text-align: left;
 letter-spacing: -1.46px;
+font-family:'Bebas Neue', cursive; ;
+position: relative;
+left: 15px;
+bottom: 10px;
+box-sizing: border-box;
+
 }
 .photo__conference {
     background-color:rgba(31,49,56,0.62);
     font-size: 17px;
     font-weight: 400;
-    height: 234px;
-    position: absolute;
+    width: 234px;
+    display:block;
+    font-weight:400;
+    object-fit: cover;
+    
 }
-.welcome__main__text {
+.welcome_to_climate_change {
     color: rgb(31,49,56);
     font-family: 'Lato', sans-serif;
     text-transform: none;
     display: block;
     text-align: left;
+    position: relative;
+left: 15px;
+bottom: 10px;
+box-sizing: border-box;
+text-transform: none;
+}
+.main_text_conference {
+    color: rgb(31,49,56);
+    font-family: 'Lato', sans-serif;
+    text-transform: none;
+    display: block;
+    text-align: left;
+    position: relative;
+left: 15px;
+bottom: 10px;
+box-sizing: border-box;
+text-transform: none;
 }
