@@ -166,3 +166,22 @@
 		justify-content: space-between;
 	}
 }
+
+.footer-social-icon{
+	max-width: 30px;
+}
+
+.footer__social a{
+	color:#fff;
+	width: fit-content;
+}
+
+.footer__social a:hover{
+	color:#cb4e3a;
+}
+
+.footer__nav-left a{
+	width: fit-content;
+	display: block;
+	margin: auto;
+}
