@@ -1,63 +1,86 @@
-.section__content {
-    background-color: rgb(255, 255, 255);
-    padding-bottom: 60px;
-    padding-top: 60px;
+.content {
+    background-color: var(--light-shade-color);
     min-width: 320px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
-.icon__dots {
+
+.content__container {
+    margin-top: 45px;
+    height: auto;
+    display: grid;
+    justify-content: center;
+    grid-row-gap: 33.3px;
+    padding: 31px 27px 31px 27px;
+}
+
+@media (min-width: 767px) {
+
+    .content__container {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 30px;
+    }
+}
+
+@media (min-width: 991px) {
+
+    .content__container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+.content__box {
+    min-width: 0px;
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 20px 25px 20px 25px;
+
+}
+
+.dots {
     font-family: 'Bebas Neue', cursive;
     font-size: 73px;
-    color: rgb(203, 78, 58);
+    color: var(--light-accent-color);
     text-align: center;
     font-style: normal;
     font-weight: 400;
 }
-.content__box {
-    box-sizing: border-box;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 272px;
-}
-.section__content-title {
+
+
+.content__title {
     font-family: 'Bebas Neue', cursive;
+    color: var(--text-color);
     font-size: 56px;
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    font-style: normal;
     font-weight: 400;
-    text-transform: none;
-    vertical-align: baseline;
 }
 
 .content__box-icon {
-    color: rgb(31, 49, 56);
-    background-color: rgba(0, 0, 0, 0);
     height: 50px;
+    width: 50px;
     max-width: 100%;
-    text-align: left;
+    justify-content: left;
 }
 
 .content__box-title {
-    padding: 0;
+    margin-top: 20px;
     font-family: 'Bebas Neue', cursive;
+    color: var(--text-color);
     font-size: 24px;
-    font-style: normal;
+    max-width: 100%;
     font-weight: 400;
     line-height: 33.6px;
-    font-weight: bold;
-    text-transform: none;
-    vertical-align: baseline;
     text-align: left;
 }
 
 .content__box-description {
+    margin-top: 20px;
     font-family: 'Lato', sans-serif;
+    color: var(--text-color);
     font-size: 17px;
-    font-style: normal;
     text-align: left;
     line-height: 30.6px;
-    text-transform: none;
-    vertical-align: baseline;
 }

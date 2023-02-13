@@ -1,21 +1,16 @@
 .speakers__block {
     background-color: #F1EFE5;
+    text-align: center;
+    
 }
 
 .text-ui-dark-accent-color {
-    font-weight: bold;
-    font-size: 73px;
-    display: block;
-    font-family: "Bebas Neue";
-    box-sizing: border-box;
-    color: rgb(33, 128, 136);
-    font-style: normal;
-    text-transform: none;
     text-align: center;
-    width: 100%;
-    height: auto;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 73px;
+    color: rgb(33, 128, 136);
+    
 }
-
 .courses__subtitle {
     text-align: center;
     text-transform: none;
@@ -33,13 +28,11 @@
 
 .speakers__person {
     text-align: center;
-    font-family: "Bebas Neue", cursive;
-    font-size: 24px;
     height: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
     border-radius: inherit;
+    line-height: 2.0em;
 }
 
 .w-text-content {
@@ -49,25 +42,73 @@
 }
 
 .header__icons {
-    width: 40%;
-    height: 100%;
-    display: block;
-    margin: auto;
     display: flex;
     justify-content: space-between;
+    width: 120px;
+    margin: 30px auto;
 }
 
 .speakers__person {
-    width: 38%;
-    height: 100%;
     text-align: center;
-    display: block;
-    margin: auto;
+    padding: 0 24px;
 }
 
 .speacers__person-name {
     font-family: "Bebas Neue", cursive;
     font-size: 24px;
-    font-weight: 800;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 23px;
+    padding: 0 24px;
 }
+
+.social-icon{
+    max-width: 32px;
+    max-height: 32px;
+}
+
+.header__icons a{
+    color: var(--light-accent-color);
+}
+
+.header__icons a:hover{
+    color: rgba(203, 78, 58, 0.80);
+}
+.speakers__container {
+    margin-top: 45px;
+    height: auto;
+    position: relative;
+    display: grid;
+    grid-row-gap: 33.3px;
+}
+.speakers__person img{
+    object-fit: cover;
+    height: 360px;
+}
+
+@media (min-width: 800px)  {
+
+    .speakers__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+}
+
+
+@media (min-width: 990px)  {
+
+    .speakers__container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
