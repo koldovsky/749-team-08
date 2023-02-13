@@ -20,12 +20,12 @@
         grid-template-columns: repeat(2, 1fr);
         grid-gap: 30px;
     }
+}
 
-    @media (min-width: 991px) {
+@media (min-width: 991px) {
 
-        .content__container {
-            grid-template-columns: repeat(3, 1fr);
-        }
+    .content__container {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
