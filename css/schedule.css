@@ -98,6 +98,7 @@
   text-align: center;
   background-color: var(--brand-color);
   width: 123px;
+  height: 42px;
 }
 
 .schedule__button-link {
@@ -105,6 +106,15 @@
   font-weight: 700;
   color: var(--text-color);
 }
+
+.schedule__button:hover {
+  background-color: var(--link-hover-color-light);
+}
+
+.schedule__button-link:hover {
+  color: var(--link-color-light);
+}
+
 
 @media (min-width: 768px) {
   .schedule__speaker-photo {
