@@ -50,10 +50,7 @@
 .schedule__speaker {
   margin-top: 50px;
   background-color: var(--light-shade-color);
-  padding-left: 29px;
-  padding-right: 29px;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  padding: 27px 29px;
   margin-left: -15px;
   margin-right: -15px;
   color: var(--text-color);
@@ -107,4 +104,64 @@
   font-size: 14px;
   font-weight: 700;
   color: var(--text-color);
+}
+
+@media (min-width: 768px) {
+  .schedule__speaker-photo {
+    height: 82px;
+    width: 82px;
+  }
+
+  .schedule__speaker-time {
+    font-size: 27px;
+  }
+
+  .schedule__speaker-topic {
+    font-size: 27px;
+  }
+
+  .schedule__speaker {
+    padding: 28px 31.5px;
+    display: flex;
+  }
+}
+
+@media (min-width: 800px) {
+  .schedule__speaker-photo {
+    height: 87px;
+    width: 87px;
+  }
+}
+
+@media (min-width: 880px) {
+  .schedule__speaker-photo {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 968px) {
+  .schedule__speaker-photo {
+    height: 115px;
+    width: 115px;
+  }
+
+  .schedule__speaker-time {
+    font-size: 30px;
+  }
+
+  .schedule__speaker-topic {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .schedule__speaker-photo {
+    height: 120px;
+    width: 120px;
+  }
+
+  .schedule__speaker {
+    padding: 30px 36px;
+  }
 }
