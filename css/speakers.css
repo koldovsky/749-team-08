@@ -32,7 +32,7 @@
     align-items: center;
     justify-content: center;
     border-radius: inherit;
-    line-height: 2.4;
+    line-height: 2.0em;
 }
 
 .w-text-content {
@@ -42,20 +42,15 @@
 }
 
 .header__icons {
-    width: 40%;
-    height: 100%;
-    display: block;
-    margin: auto;
     display: flex;
     justify-content: space-between;
+    width: 120px;
+    margin: 30px auto;
 }
 
 .speakers__person {
-    
-    width: 37%;
     text-align: center;
-    display: block;
-    margin: auto;
+    padding: 0 24px;
 }
 
 .speacers__person-name {
@@ -69,6 +64,7 @@
 
 .social-icon{
     max-width: 32px;
+    max-height: 32px;
 }
 
 .header__icons a{
@@ -87,12 +83,25 @@
 }
 .speakers__person img{
     object-fit: cover;
-    height: 450px;
+    height: 360px;
+}
+
+@media (min-width: 800px)  {
+
+    .speakers__container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
 }
 
 
+@media (min-width: 990px)  {
 
-
+    .speakers__container{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+}
 
 
 
