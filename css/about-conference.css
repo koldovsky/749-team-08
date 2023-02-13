@@ -52,3 +52,6 @@
         right: 0;
         background: rgba(31, 49, 56, 0.62);
      }
+     .photo_wrap {
+        position: relative;
+    }
