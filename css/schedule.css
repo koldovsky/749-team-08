@@ -90,29 +90,23 @@
   line-height: 30.6px;
 }
 
-.schedule__button {
-  padding: 10px 20px;
+.schedule__button-link {
+  font-size: 14px;
+  line-height: 42px;
+  font-weight: 700;
+  color: var(--text-color);
+  padding: auto;
   display: block;
   margin: 50px auto 0 auto;
-  font-weight: 400;
   text-align: center;
   background-color: var(--brand-color);
   width: 123px;
   height: 42px;
 }
 
-.schedule__button-link {
-  font-size: 14px;
-  font-weight: 700;
-  color: var(--text-color);
-}
-
-.schedule__button:hover {
-  background-color: var(--link-hover-color-light);
-}
-
 .schedule__button-link:hover {
   color: var(--link-color-light);
+  background-color: var(--link-hover-color-light);
 }
 
 
