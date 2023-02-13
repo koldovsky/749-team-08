@@ -95,7 +95,7 @@
   line-height: 42px;
   font-weight: 700;
   color: var(--text-color);
-  padding: auto;
+  padding: 0;
   display: block;
   margin: 50px auto 0 auto;
   text-align: center;
