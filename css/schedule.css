@@ -108,3 +108,44 @@
   font-weight: 700;
   color: var(--text-color);
 }
+
+@media (min-width: 768px) {
+  .schedule__speaker-photo {
+    height: 82px;
+    width: 82px;
+  }
+  .schedule__speaker-time, .schedule__speaker-time {
+    font-size: 27px;
+  }
+}
+
+@media (min-width: 800px) {
+  .schedule__speaker-photo {
+    height: 87px;
+    width: 87px;
+  }
+}
+
+@media (min-width: 880px) {
+  .schedule__speaker-photo {
+    height: 100px;
+    width: 100px;
+  }
+}
+
+@media (min-width: 968px) {
+  .schedule__speaker-photo {
+    height: 115px;
+    width: 115px;
+  }
+  .schedule__speaker-time, .schedule__speaker-time {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .schedule__speaker-photo {
+    height: 120px;
+    width: 120px;
+  }
+}
