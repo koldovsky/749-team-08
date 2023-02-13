@@ -14,6 +14,7 @@
 	flex-direction: column;
 	align-items: center;
 	text-align: center;
+	width: 20%;
 }
 
 .footer__logo {
@@ -32,6 +33,7 @@
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	width: 40%;
 }
 
 .footer__form-email {
@@ -56,23 +58,27 @@
 	padding-bottom: 25px;
 }
 
+.footer__link a {
+	color: #fff;
+}
+
 .footer__social {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	margin-top: 20px;
+	width: 20%;
 }
 
 .footer__social-text {
 	color: #fff;
 	font-size: 17px;
-
 }
 
 .footer__form {
 	display: flex;
 	flex-direction: column;
 	text-align: center;
+	width: 20%;
 }
 
 .footer__form-text {
@@ -132,6 +138,19 @@
 	font-family: "Lato";
 }
 
+.footer-social-icon {
+	max-width: 30px;
+}
+
+.footer__social a {
+	color: #fff;
+	width: fit-content;
+}
+
+.footer__social a:hover {
+	color: #cb4e3a;
+}
+
 @media (min-width: 768px) {
 	.footer__container {
 		display: flex;
@@ -165,23 +184,4 @@
 		display: flex;
 		justify-content: space-between;
 	}
-}
-
-.footer-social-icon{
-	max-width: 30px;
-}
-
-.footer__social a{
-	color:#fff;
-	width: fit-content;
-}
-
-.footer__social a:hover{
-	color:#cb4e3a;
-}
-
-.footer__nav-left a{
-	width: fit-content;
-	display: block;
-	margin: auto;
 }

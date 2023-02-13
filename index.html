@@ -14,52 +14,64 @@
 
 	<!-- Serhii Buza start-->
 	<Header class="header">
-		<div class="container">
+		<div class="container header__container">
+
+			<a href="#" class="header__logo-mobile">
+				<img class=" header__nav-logo-img" src="img/header__logo.png" alt="header-logo">
+			</a>
+
+
 			<nav class="header__nav">
-				<a href="#" class="header__nav-logo">
-					<img class="header__nav-logo-img" src="img/header__logo.png" alt="header-logo">
+
+				<a href="#" class="menu__item header__nav-logo">
+					<img class=" header__nav-logo-img" src="img/header__logo.png" alt="header-logo">
 				</a>
-				<div class="header__nav-menu menu">
+				<div class="header__nav-left">
 					<a class="menu__item" href="#">About</a>
 					<a class="menu__item" href="#">Speakers</a>
 					<a class="menu__item" href="#">Schedule</a>
 					<a class="menu__item" href="#">Partners</a>
 					<a class="menu__item" href="#">Contacts</a>
-				</div>
-				<div class="header__nav-action">
-					<div>
-						<a href="#"> Early-bird Tickets</a>
-					</div>
-					<div class="header__icons icons">
-						<a href="#" class="icons__facebook">
-							<svg>
-								<use href="img/facebook__icon.svg#facebook"> </use>
-							</svg>
-						</a>
-						<a href="#" class="icons__instagram">
-							<svg>
-								<use href="img/instagram__icon.svg#instagram"> </use>
-							</svg>
-						</a>
-						<a href="#" class="icons__youtube">
-							<svg>
-								<use href="img/youtube__icon.svg#youtube"> </use>
-							</svg>
-						</a>
+					<div class="link-container">
+						<a class=" menu__item header__nav-action-link" href="#"> Early-bird Tickets</a>
+						<div class=" header__nav-icons icons">
+							<a href="#" class="menu__item icons__facebook">
+								<svg class="header__svg">
+									<use href="img/facebook__icon.svg#facebook"> </use>
+								</svg>
+							</a>
+							<a href="#" class="menu__item icons__instagram">
+								<svg class="header__svg">
+									<use href="img/instagram__icon.svg#instagram"> </use>
+								</svg>
+							</a>
+							<a href="#" class="menu__item icons__youtube">
+								<svg class="header__svg">
+									<use href="img/youtube__icon.svg#youtube"> </use>
+								</svg>
+							</a>
+						</div>
 					</div>
 				</div>
+
+
 			</nav>
-			<h1 class="header__title">Climate Change<span>.</span></h1>
-			<div>
-				<div class="header__info">
-					<p class="header__subtitle">
-						Awareness Conference May 28, 2021,
-						<span class="title__time">10:00 AM</span>
-					</p>
-				</div>
-				<div class="header__info-action">
-					<a href="#" class="header__button button__shedule button">Schedule</a>
-					<a href="#" class="header__button button__contact button">Contact US</a>
+			<div class="header__box">
+				<h1 class="header__title">
+					Climate Change
+					<span class="header__title-point">.</span>
+				</h1>
+				<div>
+					<div class="header__info">
+						<p class="header__subtitle">
+							Awareness Conference May 28, 2021,
+							<span class="title__time">10:00 AM</span>
+						</p>
+					</div>
+					<div class="header__info-action">
+						<a href="#" class="header__button button__shedule button">Schedule</a>
+						<a href="#" class="header__button  button__contact button">ContactUS</a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -86,10 +98,10 @@
 					and the environmental issues. Thus, CCAC 2020 unites diverse researches and case studies from all over
 					the
 					world. It also offers many networking and publishing opportunities.</p>
-					<div class="photo_wrap">
-				<div> <img class="photo__conference" src="img/photo__presentation.jpeg" alt="Photo presentation "></div>
-				<div class="effect_picture"> </div>
-			</div>
+				<div class="photo_wrap">
+					<div> <img class="photo__conference" src="img/photo__presentation.jpeg" alt="Photo presentation "></div>
+					<div class="effect_picture"> </div>
+				</div>
 			</div>
 		</section>
 		<!--2.Sophia Kos - end-->
@@ -130,9 +142,9 @@
 		<!--3.Serhii Bodnar - end-->
 
 		<!--4.Yuliia Panchyshyn - begin-->
-		<section class="section__content">
-			<div class="icon__dots">□□□</div>
-			<h2 class="section__content-title">What We Will Speak About</h2>
+		<section class="content">
+			<div class="dots">...</div>
+			<h2 class="content__title">What We Will Speak About</h2>
 			<div class="content__box">
 				<img class="content__box-icon" width="449" src="img/trees_icon.svg" alt="Trees">
 				<h3 class="content__box-title">Climate change impacts</h3>
@@ -199,20 +211,20 @@
 								activist. Our special guest & speaker.</span></span>
 					</a>
 					<div class="header__icons">
-						<a href="#" >
+						<a href="#">
 							<svg class="social-icon">
 								<use href="img/social-icons/facebook-icon.svg#facebook-icon"></use>
-							</svg>					
+							</svg>
 						</a>
-						<a href="#" >
-							<svg class="social-icon"> 
+						<a href="#">
+							<svg class="social-icon">
 								<use href="img/social-icons/instagram-icon.svg#instagram-icon"></use>
-							</svg>		
+							</svg>
 						</a>
-						<a href="#" >
+						<a href="#">
 							<svg class="social-icon">
 								<use href="img/social-icons/youtube-icon.svg#youtube-icon"></use>
-							</svg>		
+							</svg>
 						</a>
 					</div>
 
@@ -534,29 +546,29 @@
 				<div class="footer__nav-left">
 					<div class="footer__link"><a href="#">About</a></div>
 					<div class="footer__link"><a href="#">Schedule</a></div>
-					<div class="footer__link"><a href="#">News</a></div>		
+					<div class="footer__link"><a href="#">News</a></div>
 				</div>
 				<div class="footer__nav-right">
-					<a href="#" class="footer__link">Speakers</a>
-					<a href="#" class="footer__link">Partners</a>
-					<a href="#" class="footer__link">Contacts</a>
+					<div class="footer__link"><a href="#">Speakers</a></div>
+					<div class="footer__link"><a href="#">Partners</a></div>
+					<div class="footer__link"><a href="#">Contacts</a></div>
 				</div>
 			</div>
 			<div class="footer__social">
 				<p class="footer__social-text">Follow Us</p>
 				<a href="https://www.facebook.com/">
-					<svg  class="footer-social-icon">
+					<svg class="footer-social-icon">
 						<use href="img/social-icons/facebook-icon.svg#facebook-icon"></use>
 					</svg>
 				</a>
 				<a href="https://www.instagram.com/">
-					<svg>
+					<svg class="footer-social-icon">
 						<use href="img/footer_instagram.svg#footerinstagram"></use>
 					</svg>
 				</a>
 				<a href="https://www.youtube.com/">
-					<svg>
-						<use href="img/footer_youtube.svg#footeryoutube"></use>
+					<svg class="footer-social-icon">
+						<use href="img/footer_youtube-icon.svg#footer-youtube"></use>
 					</svg>
 				</a>
 			</div>
