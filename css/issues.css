@@ -2,7 +2,7 @@
     text-align: center;
     padding-bottom: 80px;
     padding-top: 60px;
-    background-image: linear-gradient(rgba(203, 78, 58, 0.80), rgba(203, 78, 58, 0.95)), url(../img/issues-bg.webp);
+    background-image: linear-gradient(var(--background-transparent-light), var(--background-transparent-light)), url(../img/issues-bg.webp);
     color: var(--link-color-light);
     font-family: 'Lato', sans-serif;
     background-size: cover;
@@ -78,15 +78,18 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
+
     .issues__item {
         margin-top: 40px;
         margin-bottom: 50px;
     }
+
     .item__info {
         padding-top: 20px;
         padding-left: 25px;
         padding-right: 25px;
     }
+
     .issues__title {
         margin-bottom: 20px;
     }

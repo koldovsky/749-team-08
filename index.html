@@ -160,8 +160,7 @@
 					</p>
 				</div>
 				<div class="content__box">
-					<img class="content__box-icon" width="482" src="img/hand_with_plant_icon.svg"
-						alt="Hand with a plant">
+					<img class="content__box-icon" width="482" src="img/hand_with_plant_icon.svg" alt="Hand with a plant">
 					<h3 class="content__box-title">Climate prediction</h3>
 					<p class="content__box-description">
 						Modeling and detection of recent and future climate change. What is already implemented, what
@@ -219,7 +218,8 @@
 					<img class="speakers__person-photo" src="img/speakers/emma-smith.jfif" alt="Emma Smit">
 					<p class="speacers__person-name">EMMA SMITH</p>
 					<a href="#" class="speacers__smith-text">
-						<span class="w-text-block" style="display:block"><span class="w-text-content">Environmental activist.<br>Our special guest & speaker.</span></span>
+						<span class="w-text-block" style="display:block"><span class="w-text-content">Environmental
+								activist.<br>Our special guest & speaker.</span></span>
 					</a>
 					<div class="header__icons">
 						<a href="#">
@@ -293,7 +293,8 @@
 					<img class="speakers__person-photo" src="img/speakers/luisw-gibson.jfif" alt="Luise Gibson">
 					<p class="speacers__person-name">LUISE GIBSON</p>
 					<a href="#" class="speacers__khu-text">
-						<span class="w-text-block" style="display:block"><span class="w-text-content">Chief Executive Officer,<br>Climate Matters, UK</span></span>
+						<span class="w-text-block" style="display:block"><span class="w-text-content">Chief Executive
+								Officer,<br>Climate Matters, UK</span></span>
 					</a>
 					<div class="header__icons">
 						<a href="#">
@@ -318,7 +319,7 @@
 		<!--5.Taras Pokroveckiy - end-->
 
 		<!--6.Yuliia Horenchuk - begin-->
-		<section class="schedule">
+		<section id="schedule" class="schedule">
 			<div class="schedule__header">
 				<p class="schedule__dots">...</p>
 				<h2 class="schedule__title">Schedule</h2>
@@ -331,11 +332,11 @@
 			<div class="schedule__speakers">
 				<div class="schedule__speaker">
 					<img class="schedule__speaker-photo" width="100" src="img/emma_smith_schedule.jpg" alt="Emma Smith">
-					<div>
+					<div class="schedule__speaker-info">
 						<p class="schedule__speaker-time">10:00 AM - 10:30 AM</p>
 						<p class="schedule__speaker-name">Emma Smith</p>
 					</div>
-					<div>
+					<div class="schedule__speaker-speech">
 						<h3 class="schedule__speaker-topic">Opening speech</h3>
 						<p class="schedule__speaker-text">
 							Emma Smith was nominated for the Nobel Peace Prize this year. She held her first single
@@ -346,13 +347,12 @@
 				</div>
 
 				<div class="schedule__speaker">
-					<img class="schedule__speaker-photo" width="100" src="img/luise_gibson_schedule.jpg"
-						alt="Luise Gibson">
-					<div>
+					<img class="schedule__speaker-photo" width="100" src="img/luise_gibson_schedule.jpg" alt="Luise Gibson">
+					<div class="schedule__speaker-info">
 						<p class="schedule__speaker-time">10:45 AM - 2:15 PM</p>
 						<p class="schedule__speaker-name">Luise Gibson</p>
 					</div>
-					<div>
+					<div class="schedule__speaker-speech">
 						<h3 class="schedule__speaker-topic">Time to make real decisions</h3>
 						<p class="schedule__speaker-text">
 							The next 2-3 years are a decisive period during which a whole series of political and
@@ -362,13 +362,12 @@
 				</div>
 
 				<div class="schedule__speaker">
-					<img class="schedule__speaker-photo" width="100" src="img/gabriel_khu_schedule.jpg"
-						alt="Gabriel Khu">
-					<div>
+					<img class="schedule__speaker-photo" width="100" src="img/gabriel_khu_schedule.jpg" alt="Gabriel Khu">
+					<div class="schedule__speaker-info">
 						<p class="schedule__speaker-time">2:30 PM - 3:15 PM</p>
 						<p class="schedule__speaker-name">Gabriel Khu</p>
 					</div>
-					<div>
+					<div class="schedule__speaker-speech">
 						<h3 class="schedule__speaker-topic">The issue of climate refugees</h3>
 						<p class="schedule__speaker-text">
 							Every year, 20 million people are forced to leave their homes due to climate disasters. The
@@ -379,13 +378,12 @@
 				</div>
 
 				<div class="schedule__speaker">
-					<img class="schedule__speaker-photo" width="100" src="img/calvin_tissen_scedule.jpg"
-						alt="Calvin Tissen">
-					<div>
+					<img class="schedule__speaker-photo" width="100" src="img/calvin_tissen_scedule.jpg" alt="Calvin Tissen">
+					<div class="schedule__speaker-info">
 						<p class="schedule__speaker-time">3:30 PM - 5:30 PM</p>
 						<p class="schedule__speaker-name">Calvin Tissen</p>
 					</div>
-					<div>
+					<div class="schedule__speaker-speech">
 						<h3 class="schedule__speaker-topic">Pros and cons of the winD energy</h3>
 						<p class="schedule__speaker-text">
 							Wind energy is not a constant. With a traditional power plant, you can maintain a constant
@@ -587,21 +585,23 @@
 			</div>
 			<div class="footer__social">
 				<p class="footer__social-text">Follow Us</p>
-				<a href="https://www.facebook.com/">
-					<svg class="footer-social-icon">
-						<use href="img/social-icons/facebook-icon.svg#facebook-icon"></use>
-					</svg>
-				</a>
-				<a href="https://www.instagram.com/">
-					<svg class="footer-social-icon">
-						<use href="img/footer_instagram.svg#footerinstagram"></use>
-					</svg>
-				</a>
-				<a href="https://www.youtube.com/">
-					<svg class="footer-social-icon">
-						<use href="img/footer_youtube-icon.svg#footer-youtube"></use>
-					</svg>
-				</a>
+				<div class="footer__social-links">
+					<a href="https://www.facebook.com/">
+						<svg class="footer__social-icon">
+							<use href="img/footer__facebook-icon.svg#footer-facebook"></use>
+						</svg>
+					</a>
+					<a href="https://www.instagram.com/">
+						<svg class="footer__social-icon">
+							<use href="img/footer__instagram-icon.svg#footer-instagram"></use>
+						</svg>
+					</a>
+					<a href="https://www.youtube.com/">
+						<svg class="footer__social-icon">
+							<use href="img/footer_youtube-icon.svg#footer-youtube"></use>
+						</svg>
+					</a>
+				</div>
 			</div>
 			<div class="footer__form">
 				<p class="footer__form-text">Subscribe to get the latest news </p>
