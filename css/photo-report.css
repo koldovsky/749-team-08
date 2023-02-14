@@ -7,13 +7,6 @@
     padding: 60px 24px 90px 24px;
 }
 
-@media (min-width: 992px) {
-
-    .photo-report__gallery {
-        grid-template-columns: repeat(3, 1fr) !important;
-    }
-}
-
 @media (min-width: 600px) {
 
     .photo-report__gallery {
@@ -26,9 +19,15 @@
     }
 }
 
+@media (min-width: 992px) {
+    .photo-report__gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 .photo-report {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 123, 151, 0.92), rgba(0, 123, 151, 0.92)),
+    background-image: linear-gradient(var(--background-transparent-dark), var(--background-transparent-dark)),
         url("../img/photo-report/photo-report-bg.webp");
     background-position: 0 15%;
     background-size: cover;
