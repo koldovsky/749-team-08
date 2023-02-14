@@ -130,6 +130,7 @@
   .schedule__speaker {
     padding: 28px 31.5px;
     display: flex;
+    align-items: center;
   }
 }
 
