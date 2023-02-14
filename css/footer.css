@@ -26,6 +26,7 @@
 	font-size: 14px;
 	color: #fff;
 	line-height: 150%;
+	padding-top: 30px;
 	padding-bottom: 25px;
 }
 
@@ -138,16 +139,18 @@
 	font-family: "Lato";
 }
 
-.footer-social-icon {
+.footer__social-icon {
 	max-width: 30px;
+	max-height: 30px;
+	margin-top: 35px;
 }
 
-.footer__social a {
+.footer__social-links a {
 	color: #fff;
 	width: fit-content;
 }
 
-.footer__social a:hover {
+.footer__social-links a:hover {
 	color: var(--link-hover-color-light);
 }
 
@@ -172,6 +175,11 @@
 	.footer__link {
 		padding-right: 140px;
 		text-align: left;
+	}
+
+	.footer__social-links {
+		display: flex;
+		justify-content: space-around;
 	}
 
 	.footer__end {
