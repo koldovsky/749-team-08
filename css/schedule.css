@@ -1,7 +1,8 @@
 .schedule {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(33, 128, 106, 0.72), rgba(33, 128, 106, 0.92)), url("../img/main-contacts/main-contacts-bg.webp");
-    background-position: 70% 45%;
+    background-image: linear-gradient(rgba(33, 128, 106, 0.72), rgba(33, 128, 106, 0.92)),
+        url("../img/main-contacts/main-contacts-bg.webp");
+    background-position: 65% 45%;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -115,14 +116,6 @@
     .schedule__speaker-photo {
         height: 82px;
         width: 82px;
-    }
-
-    .task-detail-title {
-        margin: 20px;
-    }
-
-    .task-detail-user-field {
-        margin: 20px;
     }
 
     .schedule__speaker-time {
