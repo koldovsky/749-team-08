@@ -1,5 +1,5 @@
 .main-contacts {
-    background-image: linear-gradient(rgba(203, 78, 58, 0.80), rgba(203, 78, 58, 0.95)),
+    background-image: linear-gradient(var(--background-transparent-light), var(--background-transparent-light)),
         url("../img/main-contacts/main-contacts-bg.webp");
     background-position: center;
     background-size: cover;

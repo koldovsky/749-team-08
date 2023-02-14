@@ -40,7 +40,7 @@
 .question__devider {
 	font-family: "Bebas Neue";
 	font-size: 73px;
-	color: #cb4e3a;
+	color: var(--link-hover-color-light);
 }
 
 .question__form-title {
@@ -72,12 +72,12 @@
 	height: 100%;
 	border: none;
 	cursor: pointer;
-	background-color: #efc94c;
+	background-color: var(--brand-color);
 	margin-bottom: 110px;
 }
 
 .question__form-button:hover {
-	background-color: #cb4e3a;
+	background-color: var(--link-hover-color-light);
 	color: #fff;
 }
 

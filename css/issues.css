@@ -2,7 +2,7 @@
     text-align: center;
     padding-bottom: 80px;
     padding-top: 60px;
-    background-image: linear-gradient(rgba(203, 78, 58, 0.80), rgba(203, 78, 58, 0.95)), url(../img/issues-bg.webp);
+    background-image: linear-gradient(var(--background-transparent-light), var(--background-transparent-light)), url(../img/issues-bg.webp);
     color: var(--link-color-light);
     font-family: 'Lato', sans-serif;
     background-size: cover;
@@ -14,15 +14,22 @@
     letter-spacing: -1.46px;
     line-height: 67.2px;
     font-weight: 400;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .issues__subtitle {
-    margin-bottom: 100px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .issues__blocks {
-    margin-bottom: 50px;
+    margin-bottom: 10px;
+}
+
+.issues__item {
+    margin-top: 100px;
 }
 
 .issues__item span {
@@ -49,10 +56,13 @@
 
 .item__info {
     font-size: 20px;
+    padding-top: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .item__info-time {
-    font-size: 14px;
+    font-size: 17px;
 }
 
 @media (min-width: 768px) {
@@ -68,10 +78,25 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
+
+    .issues__item {
+        margin-top: 40px;
+        margin-bottom: 50px;
+    }
+
+    .item__info {
+        padding-top: 20px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .issues__title {
+        margin-bottom: 20px;
+    }
 }
 
 .divider {
-    padding: 15px;
+    padding-bottom: 15px;
     display: flex;
     color: var(--brand-color);
     font-size: 27px;
