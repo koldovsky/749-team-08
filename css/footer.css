@@ -1,5 +1,5 @@
 .footer {
-	background-color: #1f3138;
+	background-color: var(--dark-shade-color);
 	padding: 25px 25px;
 }
 
@@ -115,7 +115,7 @@
 }
 
 .footer__form-button:hover {
-	background-color: #cb4e3a;
+	background-color: var(--link-hover-color-light);
 	color: #fff;
 }
 
@@ -148,7 +148,7 @@
 }
 
 .footer__social a:hover {
-	color: #cb4e3a;
+	color: var(--link-hover-color-light);
 }
 
 @media (min-width: 768px) {
