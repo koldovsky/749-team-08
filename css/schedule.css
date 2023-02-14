@@ -6,10 +6,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  padding-top: 60px;
-  padding-bottom: 90px;
-  padding-left: 24px;
-  padding-right: 24px;
+  padding: 60px 24px 90px 24px;
   color: var(--light-shade-color);
 }
 
@@ -25,7 +22,6 @@
   color: var(--brand-color);
   text-align: center;
   font-size: 73px;
-  font-weight: 400;
   font-family: "Bebas Neue", cursive;
 }
 
@@ -36,15 +32,15 @@
 
 .schedule__title-text {
   text-align: center;
-  margin-top: 25px;
+  margin: 25px auto 0 auto;
   font-size: 20px;
+  max-width: 770px;
 }
 
 .schedule__speakers {
-  margin-left: -15px;
-  margin-right: -15px;
-  margin-top: 45px;
+  margin: 45px auto 0 auto;
   padding: 0px 29px 0px 29px;
+  max-width: 1168px;
 }
 
 .schedule__speaker {
@@ -65,7 +61,10 @@
 
 .schedule__speaker-name {
   margin-top: 20px;
+}
 
+.schedule__speaker-info {
+  max-width: 252px;
 }
 
 .schedule__speaker-time {
@@ -74,6 +73,10 @@
   margin-top: 50px;
   font-size: 24px;
   font-weight: 400;
+}
+
+.schedule__speaker-speech {
+  max-width: 627px;
 }
 
 .schedule__speaker-topic {
