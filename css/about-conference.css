@@ -1,5 +1,5 @@
      .divided__doots {
-     	color: var(light-accent-color);
+     	color: var(--light-accent-color);
      	text-align: left;
      	font-size: 73px;
      	font-family: 'Bebas Neue', cursive;
