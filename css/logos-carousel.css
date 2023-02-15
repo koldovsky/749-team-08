@@ -1,7 +1,6 @@
 .logos-carousel {
     place-items: center;
     background-color: #1f3138;
-
 }
 
 .carousel__header {
@@ -17,7 +16,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
 
 .slide img {
@@ -32,7 +30,8 @@
     color: #CB4E3A;
     font-size: 76px;
 }
-.nav-slide{
+
+.nav-slide {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,18 +39,20 @@
     top: 250px;
     width: 100%;
 }
-.btn-next{
+
+.btn-next {
     z-index: 1;
     align-items: center;
     justify-content: center;
     transform: rotate(180deg) translateX(100%);
-  }
-  .btn-perv{
+}
+
+.btn-perv {
     z-index: 1;
     align-items: center;
     justify-content: center;
     transform: translateX(100%);
-  }
+}
 
 @media (min-width:320px) {
     .carousel__header {
