@@ -200,7 +200,6 @@
 
     .header__nav,
     .header__nav-wrapper {
-        position: fixed;
         top: -100%;
         left: 0;
         width: 100%;
