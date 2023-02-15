@@ -120,16 +120,20 @@
 
     .schedule__speaker-time {
         font-size: 27px;
+        margin-top: 0px;
     }
 
     .schedule__speaker-topic {
         font-size: 27px;
+        margin-top: 0px;
     }
 
     .schedule__speaker {
         padding: 28px 31.5px;
         display: flex;
         align-items: center;
+        justify-content: space-between;
+
     }
 }
 
