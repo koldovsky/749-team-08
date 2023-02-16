@@ -1,4 +1,6 @@
 .carousel__main {
+    background-color:#1f3138;
+    place-items: center;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,10 +32,12 @@
     scroll-behavior: auto;
     cursor: grab;
 }
-.carousel__blocks{
+
+.carousel__blocks {
     display: flex;
     flex-direction: row;
 }
+
 .carousel__blocks .dragging img {
     pointer-events: none;
 }
@@ -42,13 +46,18 @@
     max-width: 1200px;
     position: relative;
     cursor: pointer;
+    padding: 0 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    flex-direction: column;
 
 }
 
 .carousel__blocks img {
-    height: 340px;
     object-fit: cover;
-    width: calc(100%/3);
+    width: calc(100%/3) !important;
     margin-left: 14px;
 }
 
@@ -95,12 +104,12 @@
 
 @media(max-width:991px) {
     .carousel__blocks img {
-        width: calc(100%/2);
+        width: calc(100%/2) !important;
     }
 }
 
 @media(max-width:766px) {
     .carousel__blocks img {
-        width: 100%;
+        width: 100% !important;
     }
 }
