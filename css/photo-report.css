@@ -14,9 +14,6 @@
         grid-gap: 30px;
     }
 
-    .pr-font {
-        font-size: 56px !important;
-    }
 }
 
 @media (min-width: 992px) {
@@ -36,7 +33,7 @@
 }
 
 .pr-font {
-    font-size: 38px;
+    font-size: 56px;
     font-weight: 400;
     color: var(--light-shade-color);
     margin-bottom: 40px;
