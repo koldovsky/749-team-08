@@ -16,7 +16,7 @@
 }
 
 .carousel__points {
-    color: var(--light-accent-color);
+    color: var(--carousel-main-color);
     font-size: 76px;
     text-align: center;
 }
@@ -80,11 +80,11 @@
 }
 
 .wrapper .btn:first-child {
-    left: -15px;
+    left: -10px;
 }
 
 .wrapper .btn:last-child {
-    right: -15px;
+    right: -10px;
 }
 
 .wrapper .btn:hover {
@@ -92,7 +92,7 @@
 }
 
 .btn-perv {
-    rotate: 180deg;
+    transform: rotate(180deg);
 }
 
 .btn-next,
