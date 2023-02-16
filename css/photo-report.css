@@ -43,3 +43,15 @@
     font-size: 73px;
     color: var(--brand-color);
 }
+
+.photo-report__gallery-item{
+    overflow: hidden;
+}
+
+.photo-report__gallery-item img:hover{
+    transform: scale(1.1);
+}
+
+img{
+    transition: 0.5s;
+}
