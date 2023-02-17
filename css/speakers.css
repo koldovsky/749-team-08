@@ -37,7 +37,7 @@
 .w-text-content {
     font-family: "Lato", cursive;
     font-weight: 100;
-    color: black;
+    color:  #1f3138;
 }
 
 .header__icons {
@@ -85,6 +85,7 @@
 .speakers__person img {
     object-fit: cover;
     height: 360px;
+    object-position: 51.722% 20.535%;
 }
 
 @media (min-width: 800px) {
