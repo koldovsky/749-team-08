@@ -3,12 +3,11 @@ firstImg = carousel.querySelectorAll("img")[0];
 arrowIcons = document.querySelectorAll(".wrapper .btn");
 let isDragStart = false,prevPageX,prevScrollLeft;
 
+
 arrowIcons.forEach(icon => {
     icon.addEventListener("click",()=>{
         let firstImgWidth = firstImg.clientWidth + 14;
         carousel.scrollLeft += icon.id == "perv" ? -firstImgWidth : firstImgWidth;
-        
-
     })
 })
 

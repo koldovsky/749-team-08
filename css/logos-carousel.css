@@ -6,6 +6,7 @@
     justify-content: center;
     min-height: 100vh;
     flex-direction: column;
+    padding: auto;
 }
 
 .carousel__header {
@@ -46,19 +47,19 @@
     max-width: 1200px;
     position: relative;
     cursor: pointer;
-    padding: 0 10px;
+    padding: 0 15px;
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     flex-direction: column;
-
+    margin: auto;
 }
 
 .carousel__blocks img {
     object-fit: cover;
     width: calc(100%/3) !important;
-    margin-left: 14px;
+    margin-left: 15px;
 }
 
 .carousel__blocks img:first-child {
