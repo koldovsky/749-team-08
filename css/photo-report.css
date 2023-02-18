@@ -14,9 +14,6 @@
         grid-gap: 30px;
     }
 
-    .pr-font {
-        font-size: 56px !important;
-    }
 }
 
 @media (min-width: 992px) {
@@ -36,7 +33,7 @@
 }
 
 .pr-font {
-    font-size: 38px;
+    font-size: 56px;
     font-weight: 400;
     color: var(--light-shade-color);
     margin-bottom: 40px;
@@ -45,4 +42,16 @@
 .pr-dots {
     font-size: 73px;
     color: var(--brand-color);
+}
+
+.photo-report__gallery-item{
+    overflow: hidden;
+}
+
+.photo-report__gallery-item img:hover{
+    transform: scale(1.1);
+}
+
+img{
+    transition: 0.5s;
 }
