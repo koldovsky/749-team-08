@@ -133,8 +133,14 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-
+        gap: 30px;
     }
+
+    .schedule__speaker-speech {
+        flex-shrink: 5;
+        padding: 0 15px;
+    }
+
 }
 
 @media (min-width: 800px) {
@@ -159,6 +165,7 @@
 
     .schedule__speaker-time {
         font-size: 30px;
+        min-width: 210px;
     }
 
     .schedule__speaker-topic {
