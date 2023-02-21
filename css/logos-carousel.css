@@ -1,5 +1,5 @@
 .carousel__main {
-    background-color:var(--link-color);
+    background-color: var(--link-color);
     place-items: center;
     display: flex;
     align-items: center;
