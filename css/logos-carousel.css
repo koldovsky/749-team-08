@@ -1,5 +1,5 @@
 .carousel__main {
-    background-color:var(--link-color);
+    background-color: var(--link-color);
     place-items: center;
     display: flex;
     align-items: center;
@@ -13,6 +13,11 @@
     color: var(--light-shade-color);
     place-items: center;
     font-size: 56px;
+}
+.carousel__text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
 
 .carousel__points {
@@ -80,11 +85,11 @@
 }
 
 .wrapper .btn:first-child {
-    left: -10px;
+    left: -5px;
 }
 
 .wrapper .btn:last-child {
-    right: -10px;
+    right: -5px;
 }
 
 .wrapper .btn:hover {

@@ -151,6 +151,12 @@
         overflow: hidden;
     }
 
+    .link-container {
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+    }
+
     .header__nav-container {
         position: relative;
         padding-top: 20px;
@@ -235,7 +241,6 @@
     }
 
     .link-container-icons {
-        margin-top: 30px;
         text-align: center;
     }
 
@@ -245,18 +250,12 @@
         text-align: center;
     }
 
-
 }
 
 @media (min-width: 991px) {
     .header__nav-wrapper {
         display: flex;
         justify-content: end;
-    }
-
-    .link-container {
-        display: flex;
-        flex-direction: column;
     }
 
     .header__nav {
@@ -267,11 +266,18 @@
     .header__nav {
         padding-top: 30px;
     }
+    .link-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
 
 }
 
 @media (min-width: 1052px) {
     .link-container {
+        display: flex;
         flex-direction: row;
+        justify-content: start;
     }
 }
