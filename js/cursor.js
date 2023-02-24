@@ -1,5 +1,6 @@
 let cursor = document.querySelector('.cursor');
 let a = document.querySelectorAll('a');
+let buttons = document.querySelectorAll('button');
 
 document.addEventListener('mousemove', function (e) {
 	let x = e.clientX;
@@ -16,3 +17,11 @@ a.forEach(item => {
 	});
 })
 
+buttons.forEach(button => {
+	button.addEventListener('mouseover', () => {
+		cursor.classList.add('hover');
+	});
+	button.addEventListener('mouseleave', () => {
+		cursor.classList.remove('hover');
+	});
+});
