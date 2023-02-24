@@ -1,4 +1,4 @@
-const buyTickets = new Date('2023-02-24T23:59:59').getTime();
+const buyTickets = new Date('2023-02-22T23:59:59').getTime();
 const displayElement = document.querySelector('.timer');
 
 function countdownTimer( buyTickets , displayElement) {
