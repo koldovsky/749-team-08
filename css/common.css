@@ -2,52 +2,70 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
 :root {
-    --text-color: #1f3138;
-    --brand-color: #efc94c;
-    --carousel-main-color:#a78f3d;
-    --dark-accent-color: #21806a;
-    --dark-shade-color: #1f3138;
-    --light-shade-color: #fff;
-    --light-accent-color: #cb4e3a;
-    --link-color: #1f3138;
-    --link-color-light: #fff;
-    --link-hover-color: #21806a;
-    --link-hover-color-light: #cb4e3a;
-    --background-transparent-dark: rgba(0, 123, 151, 0.92);
-    --background-transparent-light: rgba(203, 78, 58, 0.80);
-    --background-transparent-color: rgba(33, 128, 106, 0.80);
-    --background-transparent-dark-shade: #1f3138ab;
-    --heading-font: 'Bebas Neue', cursive;
-    font-size: 17px;
-    scroll-behavior: smooth;
-    font-family: 'Lato', sans-serif;
-    color: var(--text-color);
+	--text-color: #1f3138;
+	--brand-color: #efc94c;
+	--carousel-main-color: #a78f3d;
+	--dark-accent-color: #21806a;
+	--dark-shade-color: #1f3138;
+	--light-shade-color: #fff;
+	--light-accent-color: #cb4e3a;
+	--link-color: #1f3138;
+	--link-color-light: #fff;
+	--link-hover-color: #21806a;
+	--link-hover-color-light: #cb4e3a;
+	--background-transparent-dark: rgba(0, 123, 151, 0.92);
+	--background-transparent-light: rgba(203, 78, 58, 0.80);
+	--background-transparent-color: rgba(33, 128, 106, 0.80);
+	--background-transparent-dark-shade: #1f3138ab;
+	--heading-font: 'Bebas Neue', cursive;
+	font-size: 17px;
+	scroll-behavior: smooth;
+	font-family: 'Lato', sans-serif;
+	color: var(--text-color);
 }
 
 a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .container {
-    max-width: 1200px;
-    margin: auto;
+	max-width: 1200px;
+	margin: auto;
 }
 
 img {
-    display: block;
-    width: 100%;
+	display: block;
+	width: 100%;
 }
 
 h2 {
-    font-family: 'Bebas Neue', cursive;
-    font-weight: 400;
-    font-size: 56px;
-    text-align: center;
-    color: var(--text-color);
+	font-family: 'Bebas Neue', cursive;
+	font-weight: 400;
+	font-size: 56px;
+	text-align: center;
+	color: var(--text-color);
+}
+
+.cursor {
+	width: 30px;
+	height: 30px;
+	border: 1.5px solid #ff8901;
+	border-radius: 100%;
+	transition: all 100ms ease-out;
+	position: fixed;
+	pointer-events: none;
+	left: 0;
+	top: 0;
+	transform: translate(calc(-50% + 15px), -50%);
+}
+
+.hover {
+	opacity: 0.5;
+	background-color: #ff8901;
 }
