@@ -5,6 +5,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	cursor: none;
 }
 
 :root {
@@ -63,6 +64,7 @@ h2 {
 	left: 0;
 	top: 0;
 	transform: translate(calc(-50% + 15px), -50%);
+	z-index: 1;
 }
 
 .hover {
