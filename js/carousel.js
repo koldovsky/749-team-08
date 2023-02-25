@@ -1,6 +1,7 @@
+(() => {
 const carousel = document.querySelector(".carousel__blocks");
-firstImg = carousel.querySelectorAll("img")[0];
-arrowIcons = document.querySelectorAll(".wrapper .btn");
+const firstImg = carousel.querySelectorAll("img")[0];
+const arrowIcons = document.querySelectorAll(".wrapper .btn");
 let isDragStart = false,
 	prevPageX,
 	prevScrollLeft,
@@ -45,3 +46,4 @@ const dragStop = () => {
 carousel.addEventListener("mousedown", dragStart);
 carousel.addEventListener("mousemove", dragging);
 carousel.addEventListener("mouseup", dragStop);
+})();
