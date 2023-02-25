@@ -93,6 +93,7 @@
     box-sizing: border-box;
     padding: 18px 30px 18px 30px;
     margin: 10px;
+    border: 1px solid transparent;
 }
 
 .header__button:hover {
@@ -266,10 +267,11 @@
     .header__nav {
         padding-top: 30px;
     }
+
     .link-container {
         display: flex;
         flex-direction: column;
-        justify-content: start;
+        justify-content: center;
     }
 
 }
@@ -279,5 +281,26 @@
         display: flex;
         flex-direction: row;
         justify-content: start;
+        align-items: center;
     }
+
+    .link-container-icons {
+
+        transform: translateY(-2px);
+
+    }
+
+    .header__nav-wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+}
+
+.active__timer {
+    background-color: var(--brand-color);
+}
+
+.timer {
+    text-align: center;
 }

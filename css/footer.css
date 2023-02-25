@@ -176,6 +176,10 @@
 		text-align: left;
 	}
 
+	.footer__link a:hover {
+		color: var(--brand-color);
+	}
+
 	.footer__social {
 		width: 20%;
 	}
