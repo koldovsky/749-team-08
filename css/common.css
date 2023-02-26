@@ -5,7 +5,6 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	cursor: none;
 }
 
 :root {
@@ -51,23 +50,4 @@ h2 {
 	font-size: 56px;
 	text-align: center;
 	color: var(--text-color);
-}
-
-.cursor {
-	width: 30px;
-	height: 30px;
-	border: 1.5px solid #ff8901;
-	border-radius: 100%;
-	transition: all 100ms ease-out;
-	position: fixed;
-	pointer-events: none;
-	left: 0;
-	top: 0;
-	transform: translate(calc(-50% + 15px), -50%);
-	z-index: 1;
-}
-
-.hover {
-	opacity: 0.5;
-	background-color: #ff8901;
 }
