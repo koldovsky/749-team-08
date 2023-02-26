@@ -2,6 +2,7 @@
 
     const responce = await fetch('api/blocks.json');
     const blocks = await responce.json();
+    renderBlocks(blocks);
 
     function renderBlocks(blocks) {
         const blocksContainer = document.querySelector('.issues__blocks');
@@ -17,7 +18,4 @@
 				</div>`;
         }
     }
-
-    renderBlocks(blocks);
-
 })();
