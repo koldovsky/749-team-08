@@ -44,14 +44,14 @@
     color: var(--brand-color);
 }
 
-.photo-report__gallery-item{
+.photo-report__gallery-item {
     overflow: hidden;
 }
 
-.photo-report__gallery-item img:hover{
+.photo-report__gallery-item img:hover {
     transform: scale(1.1);
 }
 
-img{
+img {
     transition: 0.5s;
 }
