@@ -16,6 +16,5 @@
         loopCount: false,
         showCursor: true,
         attr: null,
-        callback: function () { }
     });
 })(); 
