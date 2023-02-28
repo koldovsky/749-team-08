@@ -30,6 +30,8 @@
 .conference__title {
 	text-align: left;
 	line-height: 1.6em;
+	font-weight: 900;
+    font-size: 3.5em;
 }
 
 .divided__dots {
