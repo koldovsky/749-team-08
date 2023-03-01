@@ -1,7 +1,10 @@
 (() => {
-    const card = document.querySelector('.card');
+    const cards = document.querySelectorAll('.card');
 
-    card.addEventListener('click', () => {
-        card.classList.toggle('is-flipped');
+    cards.forEach(card => {
+        card.addEventListener('click', function () {
+            card.classList.toggle('is-flipped');
+        });
     });
+
 })();
