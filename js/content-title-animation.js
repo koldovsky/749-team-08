@@ -1,21 +1,23 @@
 (function () {
-    let typed = new Typed('#typed', {
-        stringsElement: '#typed-strings',
-        typeSpeed: 100,
-        startDelay: 500,
-        backSpeed: 50,
-        loop: true
-    });
+    const span = (text, index) => {
+        const node = document.createElement('span')
+        node.textContent = text
+        node.style.setProperty('--index', index)
+        return node
+    }
 
-    $(".element").typed({
-        typeSpeed: 0,
-        backSpeed: 0,
-        startDelay: 0,
-        backDelay: 500,
-        loop: false,
-        loopCount: false,
-        showCursor: true,
-        attr: null,
-    });
+    const byLetter = text =>
+        [...text].map(span)
+    const { matches: motionOK } = window.matchMedia(
+        '(prefers-reduced-motion: no-preference)'
+    )
 
+    if (motionOK) {
+        const splitTargets = document.querySelectorAll('[split-by]')
+        splitTargets.forEach(node => {
+            let nodes = byLetter(node.innerText)
+            if (nodes)
+                node.firstChild.replaceWith(...nodes)
+        })
+    }
 })(); 
