@@ -14,7 +14,8 @@
     place-items: center;
     font-size: 56px;
 }
-.carousel__text{
+
+.carousel__text {
     display: flex;
     justify-content: center;
     text-align: center;
