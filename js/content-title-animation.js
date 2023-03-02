@@ -1,6 +1,6 @@
 (function () {
     var textWrapper = document.querySelector('.title__animation .title__letters');
-    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='title__letter'>$&</span>");
     anime.timeline({ loop: true })
         .add({
             targets: '.title__animation .title__letter',
