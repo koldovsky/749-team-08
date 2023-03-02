@@ -104,7 +104,7 @@
         color: var(--light-accent-color);
     }
 
-    .content-title__animation .content-title__wrapper {
+    .content-title__animation .content__title-wrapper {
         position: relative;
         display: inline-block;
         padding-top: 0.2em;
