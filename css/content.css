@@ -56,10 +56,6 @@
     font-weight: 400;
 }
 
-.content__title:hover {
-    color: var(--light-accent-color);
-}
-
 .content__box-icon {
     height: 50px;
     width: 50px;
@@ -99,35 +95,27 @@
     line-height: 30.6px;
 }
 
-@keyframes breath {
-    from {
-        animation-timing-function: ease-out;
+@media (min-width: 505px) {
+    .animation {
+        position: relative;
     }
 
-    to {
-        transform: scale(1.00) translateY(-5px) perspective(1px);
-        text-shadow: 0 0 40px var(--light-accent-color);
-        animation-timing-function: ease-in-out;
+    .animation:hover {
+        color: var(--light-accent-color);
     }
-}
 
-@media (min-width: 390px) and (prefers-reduced-motion:no-preference) {
-    [letter-animation]>span {
+    .animation .text-wrapper {
+        position: relative;
         display: inline-block;
-        white-space: break-spaces;
+        padding-top: 0.2em;
+        padding-right: 0.05em;
+        padding-bottom: 0.1em;
+        overflow: hidden;
     }
 
-    [letter-animation=breath] {
-        --glow-color: var(--light-shade-color);
-    }
-
-    [letter-animation=breath]>span {
-        animation: breath 1.2s ease calc(var(--index) * 100 * 1ms) infinite alternate;
-    }
-}
-
-@media (prefers-reduced-motion:no-preference) and (prefers-color-scheme: light) {
-    [letter-animation=breath] {
-        --glow-color: var(--light-accent-color);
+    .animation .letter {
+        transform-origin: 50% 100%;
+        display: inline-block;
+        line-height: 1em;
     }
 }

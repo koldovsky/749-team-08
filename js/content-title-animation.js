@@ -1,23 +1,18 @@
 (function () {
-    const span = (text, index) => {
-        const node = document.createElement('span')
-        node.textContent = text
-        node.style.setProperty('--index', index)
-        return node
-    }
-
-    const byLetter = text =>
-        [...text].map(span)
-    const { matches: motionOK } = window.matchMedia(
-        '(prefers-reduced-motion: no-preference)'
-    )
-
-    if (motionOK) {
-        const splitTargets = document.querySelectorAll('[split-by]')
-        splitTargets.forEach(node => {
-            let nodes = byLetter(node.innerText)
-            if (nodes)
-                node.firstChild.replaceWith(...nodes)
-        })
-    }
+    var textWrapper = document.querySelector('.animation .letters');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+    anime.timeline({ loop: true })
+        .add({
+            targets: '.animation .letter',
+            scale: [0, 1],
+            duration: 1500,
+            elasticity: 600,
+            delay: (el, i) => 45 * (i + 1)
+        }).add({
+            targets: '.animation',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 1000
+        });
 })(); 
