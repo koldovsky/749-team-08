@@ -96,15 +96,15 @@
 }
 
 @media (min-width: 505px) {
-    .animation {
+    .title__animation {
         position: relative;
     }
 
-    .animation:hover {
+    .title__animation:hover {
         color: var(--light-accent-color);
     }
 
-    .animation .text-wrapper {
+    .title__animation .title__text-wrapper {
         position: relative;
         display: inline-block;
         padding-top: 0.2em;
@@ -113,7 +113,7 @@
         overflow: hidden;
     }
 
-    .animation .letter {
+    .title__animation .title__letter {
         transform-origin: 50% 100%;
         display: inline-block;
         line-height: 1em;
