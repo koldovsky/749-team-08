@@ -43,7 +43,7 @@
     max-width: 1168px;
 }
 
-.schedule__speaker {
+.schedule__speaker-front {
     margin-top: 50px;
     background-color: var(--light-shade-color);
     padding: 27px 29px;
@@ -128,7 +128,7 @@
         margin-top: 0px;
     }
 
-    .schedule__speaker {
+    .schedule__speaker-front {
         padding: 28px 31.5px;
         display: flex;
         align-items: center;
@@ -179,7 +179,7 @@
         width: 120px;
     }
 
-    .schedule__speaker {
+    .schedule__speaker-front {
         padding: 30px 36px;
     }
 }

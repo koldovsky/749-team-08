@@ -1,9 +1,9 @@
 const buyTickets = new Date('2023-02-22T23:59:59').getTime();
 const displayElement = document.querySelector('.timer');
 
-function countdownTimer( buyTickets , displayElement) {
+function countdownTimer(buyTickets, displayElement) {
 
-  const interval = setInterval(function() {
+  const interval = setInterval(function () {
 
     const now = new Date().getTime();
     const distance = buyTickets - now;
@@ -16,18 +16,18 @@ function countdownTimer( buyTickets , displayElement) {
     const countdownString = `${days}d ${hours}h ${minutes}m ${seconds}s`;
 
     displayElement.innerText = countdownString;
-    
-    const boxColor = document.querySelector ('.header__nav-action-link');
-    boxColor.classList.toggle ('active__timer');
+
+    const boxColor = document.querySelector('.header__nav-action-link');
+    boxColor.classList.toggle('active__timer');
 
     if (distance < 0) {
       clearInterval(interval);
-    displayElement.style.display = "none";
-    boxColor.innerText = "BUY TICKETS"; 
+      displayElement.style.display = "none";
+      boxColor.innerText = "BUY TICKETS";
     }
   }, 1000);
 
 }
-countdownTimer( buyTickets, displayElement);
+countdownTimer(buyTickets, displayElement);
 
 
