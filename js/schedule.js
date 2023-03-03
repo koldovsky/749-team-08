@@ -19,6 +19,24 @@
         heading.style.transform = `scale(${scale})`;
     }, 50);
 
+    const textWrapper = document.querySelector('.schedule__title-text');
+    textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+    anime.timeline({ loop: true })
+        .add({
+            targets: '.schedule__title-text .letter',
+            opacity: [0, 1],
+            easing: "easeInOutQuad",
+            duration: 2250,
+            delay: (el, i) => 15 * (i + 1)
+        }).add({
+            targets: '.schedule__title-text',
+            opacity: 0,
+            duration: 1000,
+            easing: "easeOutExpo",
+            delay: 10
+        });
+
 
     const cloud = document.getElementById('cloud');
     let x = -150;
