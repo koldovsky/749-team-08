@@ -113,16 +113,17 @@
     color: var(--link-color-light);
     background-color: var(--link-hover-color-light);
 }
+
 #cloud {
     position: absolute;
-  top: 50px;
-  left: -150px;
-  width: 200px;
-  height: 100px;
-  background-image: url('../img/cloud.png');
-  background-repeat: no-repeat;
-  background-size: contain;
-  }
+    top: 50px;
+    left: -150px;
+    width: 200px;
+    height: 100px;
+    background-image: url('../img/cloud.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+}
 
 @media (min-width: 768px) {
     .schedule__speaker-photo {
