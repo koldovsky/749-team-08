@@ -104,7 +104,7 @@
         color: var(--light-accent-color);
     }
 
-    .content-title__animation .content__title-wrapper {
+    .content-title__animation .title__wrapper {
         position: relative;
         display: inline-block;
         padding-top: 0.2em;
@@ -117,5 +117,78 @@
         transform-origin: 50% 100%;
         display: inline-block;
         line-height: 1em;
+    }
+}
+
+#anim-extra-one {
+    height: 10px;
+    width: 10px;
+    display: inline-block;
+    text-align: center;
+    -webkit-animation: square-to-circle 2s 1s infinite cubic-bezier(1, 0.005, 0.215, 1.2) alternate;
+    animation: square-to-circle 2s 1s infinite cubic-bezier(1, 0.005, 0.215, 1.2) alternate;
+}
+
+@-webkit-keyframes square-to-circle {
+    0% {
+        border-radius: 0 0 0 0;
+        background: var(--square-color);
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-radius: 50% 0 0 0;
+        background: var(--figure-color);
+        transform: rotate(45deg);
+    }
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        background: var(--light-accent-color);
+        transform: rotate(90deg);
+    }
+
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background: var(--drop-color);
+        transform: rotate(135deg);
+    }
+
+    100% {
+        border-radius: 50%;
+        background: var(--figure-color);
+        transform: rotate(180deg);
+    }
+}
+
+@keyframes square-to-circle {
+    0% {
+        border-radius: 0 0 0 0;
+        background: var(--square-color);
+        transform: rotate(0deg);
+    }
+
+    25% {
+        border-radius: 50% 0 0 0;
+        background: var(--figure-color);
+        transform: rotate(45deg);
+    }
+
+    50% {
+        border-radius: 50% 50% 0 0;
+        background: var(--light-accent-color);
+        transform: rotate(90deg);
+    }
+
+    75% {
+        border-radius: 50% 50% 50% 0;
+        background: var(--drop-color);
+        transform: rotate(135deg);
+    }
+
+    100% {
+        border-radius: 50%;
+        background: var(--figure-color);
+        transform: rotate(180deg);
     }
 }
