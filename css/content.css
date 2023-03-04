@@ -113,7 +113,7 @@
         overflow: hidden;
     }
 
-    .animation .title__letters {
+    .animation .letter {
         transform-origin: 50% 100%;
         display: inline-block;
         line-height: 1em;
