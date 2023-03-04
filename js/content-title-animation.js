@@ -8,7 +8,8 @@
             duration: 1500,
             elasticity: 600,
             delay: (el, i) => 45 * (i + 1)
-        }).add({
+        })
+        .add({
             targets: '.animation',
             opacity: 0,
             duration: 1000,
