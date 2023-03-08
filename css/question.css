@@ -81,6 +81,72 @@
 	color: #fff;
 }
 
+.modal {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	visibility: hidden;
+	opacity: 0;
+	transition: all .2s;
+	pointer-events: none;
+}
+
+.modal.active {
+	width: 100%;
+	height: 100vh;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+	visibility: visible;
+	opacity: 1;
+	transition: all .2s;
+	pointer-events: all;
+}
+
+.modal__bg {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, .8);
+	display: flex;
+	padding: 20px;
+}
+
+.modal__body {
+	padding: 24px;
+	background-color: #fff;
+	width: 300px;
+	margin: auto;
+	min-height: 20%;
+	overflow: auto;
+	border-radius: 16px;
+	position: relative;
+}
+
+.modal__close {
+	position: absolute;
+	max-width: 21px;
+	min-height: 22px;
+	top: 10px;
+	right: 16px;
+	cursor: pointer;
+}
+
+.modal__title {
+	margin: auto;
+	font-size: 24px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+}
+
+.modal__text {
+	font-size: 17px;
+	margin-top: 7px;
+}
+
 @media (min-width: 768px) {
 	.question {
 		display: flex;

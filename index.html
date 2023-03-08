@@ -116,10 +116,10 @@
 		<section class="content container">
 			<div class="dots">...</div>
 			<h2 class="content-title__animation">
-                <span class="content-title__wrapper">
-                    <span class="content-title__letters" class="content__title">What We Will Speak About</span>
-                </span>
-            </h2>
+				<span class="content-title__wrapper">
+					<span class="content-title__letters" class="content__title">What We Will Speak About</span>
+				</span>
+			</h2>
 			<div class="content__container">
 				<div class="content__box">
 					<img class="content__box-icon" width="449" src="img/trees_icon.svg" alt="Trees">
@@ -128,8 +128,7 @@
 						Hundreds of animals and plants are already extinct. What will be next?</p>
 				</div>
 				<div class="content__box">
-					<img class="content__box-icon" width="482" src="img/hand_with_plant_icon.svg"
-						alt="Hand with a plant">
+					<img class="content__box-icon" width="482" src="img/hand_with_plant_icon.svg" alt="Hand with a plant">
 					<h3 class="content__box-title">Climate prediction</h3>
 					<p class="content__box-description"> Modeling and detection of recent and future climate change.
 						What is already implemented, what technologies are still being developed.</p>
@@ -287,8 +286,7 @@
 			<div class="schedule__speakers">
 				<div class="schedule__speaker">
 					<div class="schedule__speaker-front">
-						<img class="schedule__speaker-photo" width="100" src="img/emma_smith_schedule.jpg"
-							alt="Emma Smith">
+						<img class="schedule__speaker-photo" width="100" src="img/emma_smith_schedule.jpg" alt="Emma Smith">
 						<div class="schedule__speaker-info">
 							<p class="schedule__speaker-time">10:00 AM - 10:30 AM</p>
 							<p class="schedule__speaker-name">Emma Smith</p>
@@ -324,8 +322,7 @@
 
 				<div class="schedule__speaker">
 					<div class="schedule__speaker-front">
-						<img class="schedule__speaker-photo" width="100" src="img/gabriel_khu_schedule.jpg"
-							alt="Gabriel Khu">
+						<img class="schedule__speaker-photo" width="100" src="img/gabriel_khu_schedule.jpg" alt="Gabriel Khu">
 						<div class="schedule__speaker-info">
 							<p class="schedule__speaker-time">2:30 PM - 3:15 PM</p>
 							<p class="schedule__speaker-name">Gabriel Khu</p>
@@ -378,14 +375,12 @@
 						<img class="btn-perv" src="img/logos-carousel/arrow.svg" alt="Arrow button">
 					</div>
 					<div class="carousel__blocks">
-						<img class="logo__carousel" src="img/logos-carousel/nation-geographic-logo.svg"
-							alt="Logo Water Plus">
+						<img class="logo__carousel" src="img/logos-carousel/nation-geographic-logo.svg" alt="Logo Water Plus">
 						<img class="logo__carousel" src="img/logos-carousel/water-nature-initiative-logo.svg"
 							alt="Logo the Climat Corporation">
 						<img class="logo__carousel" src="img/logos-carousel/the-nature-conservancy-logo.svg"
 							alt="Logo English Corporation">
-						<img class="logo__carousel" src="img/logos-carousel/water-plus-logo.svg"
-							alt="Logo Water Natural">
+						<img class="logo__carousel" src="img/logos-carousel/water-plus-logo.svg" alt="Logo Water Natural">
 						<img class="logo__carousel" src="img/logos-carousel/the-climate-corporation-logo.svg"
 							alt="Logo the Nature convercary">
 						<img class="logo__carousel" src="img/logos-carousel/english-nature-logo.svg"
@@ -495,6 +490,17 @@
 		<!-- 10-11.Ros Haraida begin -->
 		<!-- block question begin -->
 		<div class="question" id="question">
+			<div class="modal">
+				<div class="modal__bg">
+					<div class="modal__body">
+						<div class="modal__close"><img src="img/close.png" alt="close"></div>
+						<div class="modal__content modal__callback">
+							<div class="modal__title">Thank you</div>
+							<p class="modal__text">We will contact you shortly</p>
+						</div>
+					</div>
+				</div>
+			</div>
 			<div class="question__pic">
 				<img src="img/question-pic.jpeg" alt="animal picture" class="picx
 				">
@@ -517,7 +523,8 @@
 						<input class="question__input email" id="email" name="email" placeholder="Email*"><br>
 						<textarea class="question__input message" rows="7" id="message" name="message"
 							placeholder="Your message"></textarea><br>
-						<button class="question__form-button" type="submit"><b>Send</b></button>
+						<button class="question__form-button modal__open" id="modal-window-open"
+							type="button"><b>Send</b></button>
 					</form>
 				</div>
 			</div>
@@ -593,6 +600,7 @@
 	<script src="js/issues-blocks.js"></script>
 	<script src="js/content-title-animation.js"></script>
 	<script src="js/conference-title-animation.js"></script>
+	<script src="js/footer-modal-window.js"></script>
 </body>
 
 </html>
