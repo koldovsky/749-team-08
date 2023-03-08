@@ -8,6 +8,8 @@
     background-attachment: fixed;
     padding: 60px 24px 90px 24px;
     color: var(--light-shade-color);
+    position: relative;
+    overflow: hidden;
 }
 
 .schedule__header {
@@ -110,6 +112,17 @@
 .schedule__button-link:hover {
     color: var(--link-color-light);
     background-color: var(--link-hover-color-light);
+}
+
+#cloud {
+    position: absolute;
+    top: 50px;
+    left: -150px;
+    width: 200px;
+    height: 120px;
+    background-image: url('../img/cloud.png');
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 @media (min-width: 768px) {

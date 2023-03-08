@@ -23,6 +23,9 @@
 	--background-transparent-light: rgba(203, 78, 58, 0.80);
 	--background-transparent-color: rgba(33, 128, 106, 0.80);
 	--background-transparent-dark-shade: #1f3138ab;
+	--square-color:#ff7f50;
+    --drop-color:#f08080;
+    --figure-color: #e9967a;
 	--heading-font: 'Bebas Neue', cursive;
 	font-size: 17px;
 	scroll-behavior: smooth;
