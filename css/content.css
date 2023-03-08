@@ -1,6 +1,5 @@
 .content {
     background-color: var(--light-shade-color);
-    min-width: 320px;
     padding-top: 60px;
     padding-bottom: 60px;
 }
