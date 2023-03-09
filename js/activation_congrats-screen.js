@@ -9,6 +9,7 @@
     buttonSurprize.addEventListener("click", function (e) {
         document.body.classList.toggle("lock");
         surprizeBody.classList.toggle("pushed__box");
+        gratitudeBox.style.backdropFilter = "blur(5px)";
         flyingBalloon.style.animationPlayState = "running";
         balloon.style.display = "inherit";
         audio.volume = 0.5;

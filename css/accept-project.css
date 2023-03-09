@@ -60,7 +60,7 @@
 	padding: 0;
 	border: none;
 	background: #21806a;
-	background: linear-gradient(0deg, rgba(33, 128, 106, 0, 1) 0%, rgba(33, 128, 106, 1) 100%);
+	background: linear-gradient(0deg, rgba(33, 128, 106, 0.9) 0%, rgba(33, 128, 106, 1) 100%);
 }
 
 .accept-button:hover {
@@ -100,7 +100,6 @@
 
 .congrats-screen__gratitude-box {
 	background: rgba(1, 73, 124, 0.4);
-	backdrop-filter: blur(5px);
 	border-radius: 12px;
 	font-family: 'Space Grotesk', sans-serif;
 	color: #FFFFFF;
@@ -244,6 +243,6 @@
 		height: 3px;
 		width: 100%;
 		background-color: #fff;
-		transform-origin: 0.5 0;
+		transform-origin: 0.5px 0;
 	}
 }
